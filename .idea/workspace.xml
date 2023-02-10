@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Refatorando a massa de teste para login">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Refatorando as keywords">
+      <change afterPath="$PROJECT_DIR$/Web/resources/keywords.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/login.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676069849250</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":rocket: Refatorando as keywords">
+      <created>1676070317819</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070317819</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
     <MESSAGE value=":rocket: testando se a aplicação está online" />
     <MESSAGE value=":rocket: Testando cenarios de Login valido e login invalido" />
     <MESSAGE value=":rocket: Refatorando a massa de teste para login" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Refatorando a massa de teste para login" />
+    <MESSAGE value=":rocket: Refatorando as keywords" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Refatorando as keywords" />
   </component>
 </project>
