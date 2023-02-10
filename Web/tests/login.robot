@@ -6,11 +6,13 @@ Library   Browser
 
 *** Test Cases ***
 Login do Administrador
+    [Documentation]     Logando com usuário corredo
+    [Tags]              login
+
     New Browser     headless=False      browser=chromium
     New Page        http://localhost:3000
 
-    Fill Text       css=input[name=email]       admin@smartbit.com
-    Fill Text       css=input[name=password]    qacademy
+    Fill Credenciais    admin@smartbit.com       qacademy
 
     Click           css=button >> text=Entrar no sistema
 
@@ -21,11 +23,13 @@ Login do Administrador
     Get Text                   ${logged_user}     equal   Admin
     
 Email não cadastrado
+    [Documentation]     Logando com o email inválido
+    [Tags]              email-invalid
+
     New Browser     headless=False      browser=chromium
     New Page        http://localhost:3000
 
-    Fill Text       css=input[name=email]       404@smartbit.com
-    Fill Text       css=input[name=password]    qacademy
+    Fill Credenciais    404@smartbit.com      qacademy
 
     Click           css=button >> text=Entrar no sistema
     
@@ -35,13 +39,13 @@ Email não cadastrado
 
 
 Senha inválida
-    [Tags]          temp
+    [Documentation]     Logando com o senha inválido
+    [Tags]              password-invalid
 
     New Browser     headless=False      browser=chromium
     New Page        http://localhost:3000
 
-    Fill Text       css=input[name=email]       admin@smartbit.com
-    Fill Text       css=input[name=password]    abc123
+    Fill Credenciais    admin@smartbit.com      abc123
 
     Click           css=button >> text=Entrar no sistema
 
@@ -49,3 +53,9 @@ Senha inválida
     ...     css=.Toastify__toast-body div >> text=Suas credenciais são inválidas, por favor tente novamente!
     ...     visible     5
 
+*** Keywords ***
+Fill Credenciais
+    [Arguments]     ${email}        ${password}
+
+    Fill Text       css=input[placeholder="Seu e-mail"]       ${email}
+    Fill Text       css=input[placeholder="Sua Senha"]        ${password}
