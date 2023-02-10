@@ -9,53 +9,55 @@ Login do Administrador
     [Documentation]     Logando com usuário corredo
     [Tags]              login
 
-    New Browser     headless=False      browser=chromium
-    New Page        http://localhost:3000
-
-    Fill Credenciais    admin@smartbit.com       qacademy
-
-    Click           css=button >> text=Entrar no sistema
-
-    ${logged_user}      Set Variable    css=aside strong
-
-    Wait For Elements State    ${logged_user}     visible     5
-
-    Get Text                   ${logged_user}     equal   Admin
+    Go To Login Page
+    Fill Credentials    admin@smartbit.com       qacademy
+    Submit Credentials
+    User Should Be Looged In
     
 Email não cadastrado
     [Documentation]     Logando com o email inválido
     [Tags]              email-invalid
 
-    New Browser     headless=False      browser=chromium
-    New Page        http://localhost:3000
-
-    Fill Credenciais    404@smartbit.com      qacademy
-
-    Click           css=button >> text=Entrar no sistema
-    
-    Wait For Elements State
-    ...     css=.Toastify__toast-body div >> text=Suas credenciais são inválidas, por favor tente novamente!
-    ...     visible     5
+    Go To Login Page
+    Fill Credentials    404@smartbit.com      qacademy
+    Submit Credentials
+    Verify Toaster
 
 
 Senha inválida
     [Documentation]     Logando com o senha inválido
     [Tags]              password-invalid
 
+    Go To Login Page
+    Fill Credentials    admin@smartbit.com      abc123
+    Click           css=button >> text=Entrar no sistema
+    Submit Credentials
+
+    Verify Toaster
+
+*** Keywords ***
+Go To Login Page
     New Browser     headless=False      browser=chromium
     New Page        http://localhost:3000
 
-    Fill Credenciais    admin@smartbit.com      abc123
-
-    Click           css=button >> text=Entrar no sistema
-
-    Wait For Elements State
-    ...     css=.Toastify__toast-body div >> text=Suas credenciais são inválidas, por favor tente novamente!
-    ...     visible     5
-
-*** Keywords ***
-Fill Credenciais
+Fill Credentials
     [Arguments]     ${email}        ${password}
 
     Fill Text       css=input[placeholder="Seu e-mail"]       ${email}
     Fill Text       css=input[placeholder="Sua Senha"]        ${password}
+
+Submit Credentials
+    Click           css=button >> text=Entrar no sistema
+
+Verify Toaster
+    Wait For Elements State
+    ...     css=.Toastify__toast-body div >> text=Suas credenciais são inválidas, por favor tente novamente!
+    ...     visible     5
+
+
+User Should Be Looged In
+    ${logged_user}      Set Variable    css=aside strong
+
+    Wait For Elements State    ${logged_user}     visible     5
+    Get Text                   ${logged_user}     equal   Admin
+
