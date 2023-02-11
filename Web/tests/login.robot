@@ -10,9 +10,9 @@ Login do Administrador
     [Tags]              login
 
     Go To Login Page
-    Fill Credentials    admin@smartbit.com       qacademy
+    Fill Credentials            admin@smartbit.com       qacademy
     Submit Credentials
-    User Should Be Looged In
+    User Should Be Looged In    Admin
     
 Email não cadastrado
     [Documentation]     Logando com o email inválido
@@ -21,7 +21,7 @@ Email não cadastrado
     Go To Login Page
     Fill Credentials    404@smartbit.com      qacademy
     Submit Credentials
-    Verify Toaster
+    Verify Toaster      Suas credenciais são inválidas, por favor tente novamente!
 
 
 Senha inválida
@@ -30,10 +30,39 @@ Senha inválida
 
     Go To Login Page
     Fill Credentials    admin@smartbit.com      abc123
-    Click           css=button >> text=Entrar no sistema
+    Click               css=button >> text=Entrar no sistema
     Submit Credentials
+    Verify Toaster      Suas credenciais são inválidas, por favor tente novamente!
+    
+    
+Email no formato incorreto
+    [Documentation]         Validando o tipo campo email
+    [Tags]                  email-incorred
 
-    Verify Toaster
+    Go To Login Page
+    Fill Credentials        @com.br    abc123
+    Submit Credentials
+    Field Tyoe Should Be Email
+
+Senha em branco
+    [Documentation]         Submetendo o formulário sem informa a senha
+    [Tags]                  password-empty
+
+    Go To Login Page
+    Fill Credentials            admin@smartbi.com    ${EMPTY}
+    Submit Credentials
+    Alert Text Should Be        A senha é obrigatória
+
+Email em branco
+    [Documentation]         Submetendo o formulário sem informa o e-mail
+    [Tags]                  email-empty
+
+    Go To Login Page
+    Fill Credentials    ${EMPTY}    qacademy
+    Submit Credentials
+    Alert Text Should Be        O e-mail é obrigatório
+
+
 
 
 

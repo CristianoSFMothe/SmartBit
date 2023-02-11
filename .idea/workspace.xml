@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Refatorando as keywords">
-      <change afterPath="$PROJECT_DIR$/Web/resources/keywords.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/resources/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/keywords.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/login.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +31,54 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/crist/Documents/Cursos/QAcademy/SmartBit/Web/tests",
+    "last_opened_file_path": "C:/Users/crist/Documents/Workspace/swaglabs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Robotpy.RobotPy: profiler test">
+    <configuration name="RobotPy: coverage sim" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
+      <option name="command" value="sim" />
+      <option name="options" value="" />
+      <option name="profile" value="false" />
+      <option name="coverage" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RobotPy: coverage test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
+      <option name="command" value="test" />
+      <option name="options" value="" />
+      <option name="profile" value="false" />
+      <option name="coverage" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RobotPy: profiler test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
+      <option name="command" value="test" />
+      <option name="options" value="" />
+      <option name="profile" value="true" />
+      <option name="coverage" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RobotPy: test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
+      <option name="command" value="test" />
+      <option name="options" value="" />
+      <option name="profile" value="false" />
+      <option name="coverage" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Robotpy.RobotPy: profiler test" />
+        <item itemvalue="Robotpy.RobotPy: coverage sim" />
+        <item itemvalue="Robotpy.RobotPy: coverage test" />
+        <item itemvalue="Robotpy.RobotPy: test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
