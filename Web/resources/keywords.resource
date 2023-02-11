@@ -43,7 +43,7 @@ Field Tyoe Should Be Email
     ...              type       equal       email
 
 Alert Text Should Be
-    [Arguments]         ${expexted_text}
+    [Arguments]         ${field}        ${expexted_text}
 
-    Wait For Elements State    css=span >> text=${expexted_text}
-    ...                        visible      5
+    Get Text    xpath=//input[@type="${field}"]/..//span
+    ...         equal       ${expexted_text}

@@ -51,7 +51,7 @@ Senha em branco
     Go To Login Page
     Fill Credentials            admin@smartbi.com    ${EMPTY}
     Submit Credentials
-    Alert Text Should Be        A senha é obrigatória
+    Alert Text Should Be        password    A senha é obrigatória
 
 Email em branco
     [Documentation]         Submetendo o formulário sem informa o e-mail
@@ -60,7 +60,16 @@ Email em branco
     Go To Login Page
     Fill Credentials    ${EMPTY}    qacademy
     Submit Credentials
-    Alert Text Should Be        O e-mail é obrigatório
+    Alert Text Should Be       email     O e-mail é obrigatório
+
+Email e senha são obrigatórios
+    [Documentation]         Submetendo o formulário sem informa os campos
+    [Tags]                  fiel-empty
+
+    Go To Login Page
+    Submit Credentials
+    Alert Text Should Be       email     O e-mail é obrigatório
+    Alert Text Should Be        password    A senha é obrigatória
 
 
 

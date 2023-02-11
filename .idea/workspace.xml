@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Refatorando as keywords">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Validando formulários">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/resources/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/keywords.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/login.robot" afterDir="false" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676070317819</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=":rocket: Validando formulários">
+      <created>1676147876694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676147876694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +155,7 @@
     <MESSAGE value=":rocket: Testando cenarios de Login valido e login invalido" />
     <MESSAGE value=":rocket: Refatorando a massa de teste para login" />
     <MESSAGE value=":rocket: Refatorando as keywords" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Refatorando as keywords" />
+    <MESSAGE value=":rocket: Validando formulários" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Validando formulários" />
   </component>
 </project>
