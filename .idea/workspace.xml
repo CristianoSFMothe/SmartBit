@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Validando formulários">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Finalizando a automação do cenario de login">
+      <change afterPath="$PROJECT_DIR$/Web/resources/components/navbar.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/resources/pages/login.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/keywords.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/resources/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/components/toast.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/login.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/crist/Documents/Workspace/swaglabs",
+    "last_opened_file_path": "C:/Users/crist/Documents/Cursos/QAcademy/SmartBit/Web/resources/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +44,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\components" />
+      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\pages" />
+    </key>
+  </component>
   <component name="RunManager" selected="Robotpy.RobotPy: profiler test">
     <configuration name="RobotPy: coverage sim" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
       <option name="command" value="sim" />
@@ -132,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676147876694</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":rocket: Finalizando a automação do cenario de login">
+      <created>1676148720318</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676148720318</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,7 @@
     <MESSAGE value=":rocket: Refatorando a massa de teste para login" />
     <MESSAGE value=":rocket: Refatorando as keywords" />
     <MESSAGE value=":rocket: Validando formulários" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Validando formulários" />
+    <MESSAGE value=":rocket: Finalizando a automação do cenario de login" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Finalizando a automação do cenario de login" />
   </component>
 </project>

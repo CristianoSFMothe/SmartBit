@@ -2,7 +2,9 @@
 Documentation       Suite de teste de autenticação
 ...                 Administrador deve acessar o portal de gestão de academias
 
-Resource       ../resources/keywords.resource
+Resource        ../resources/pages/login.resource
+Resource        ../resources/components/navbar.resource
+Resource        ../resources/components/toast.resource
 
 *** Test Cases ***
 Login do Administrador
@@ -70,7 +72,6 @@ Email e senha são obrigatórios
     Submit Credentials
     Alert Text Should Be       email     O e-mail é obrigatório
     Alert Text Should Be        password    A senha é obrigatória
-
 
 
 

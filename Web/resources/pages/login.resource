@@ -17,26 +17,6 @@ Fill Credentials
 Submit Credentials
     Click           css=button >> text=Entrar no sistema
 
-Verify Toaster
-    [Arguments]     ${expectec_message}
-
-    Wait For Elements State
-    ...     css=.Toastify__toast-body div >> text=${expectec_message}
-    ...     visible     5
-
-    Wait For Elements State
-    ...     css=.Toastify__toast-body div
-    ...     detached    10
-
-
-User Should Be Looged In
-    [Arguments]         ${username}
-
-    ${logged_user}      Set Variable    css=aside strong
-
-    Wait For Elements State    ${logged_user}     visible     5
-    Get Text                   ${logged_user}     equal       ${username}
-
 
 Field Tyoe Should Be Email
     Get Attribute    css=input[placeholder="Seu e-mail"]
