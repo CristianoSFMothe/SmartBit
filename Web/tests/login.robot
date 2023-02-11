@@ -2,9 +2,7 @@
 Documentation       Suite de teste de autenticação
 ...                 Administrador deve acessar o portal de gestão de academias
 
-Resource        ../resources/pages/login.resource
-Resource        ../resources/components/navbar.resource
-Resource        ../resources/components/toast.resource
+Resource        ../resources/base.resource
 
 *** Test Cases ***
 Login do Administrador
