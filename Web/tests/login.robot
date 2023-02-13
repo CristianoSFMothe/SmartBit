@@ -13,7 +13,7 @@ Login do Administrador
     Fill Credentials            admin@smartbit.com       qacademy
     Submit Credentials
     User Should Be Looged In    Admin
-    
+
 Email não cadastrado
     [Documentation]     Logando com o email inválido
     [Tags]              email-invalid
