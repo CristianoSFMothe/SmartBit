@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Estruturando o page-objects">
-      <change afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/base.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/base.resource" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Testando a entrar na página de matricular">
+      <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676153083092</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":rocket: Testando a entrar na página de matricular">
+      <created>1676289316348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676289316348</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +186,7 @@
     <MESSAGE value=":rocket: Validando formulários" />
     <MESSAGE value=":rocket: Finalizando a automação do cenario de login" />
     <MESSAGE value=":rocket: Estruturando o page-objects" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Estruturando o page-objects" />
+    <MESSAGE value=":rocket: Testando a entrar na página de matricular" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Testando a entrar na página de matricular" />
   </component>
 </project>

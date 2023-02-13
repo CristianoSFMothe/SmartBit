@@ -8,9 +8,9 @@ Resource            pages/login.resource
 *** Keywords ***
 # Helpers
 Do Login
-    [Arguments]         ${email}        ${pass}         ${name}
+    [Arguments]         ${user}
 
     Go To Login Page
-    Fill Credentials             ${email}        ${pass}
+    Fill Credentials             ${user}[email]        ${user}[pass]
     Submit Credentials
-    User Should Be Looged In     ${name}
+    User Should Be Looged In     ${user}[name]

@@ -9,6 +9,11 @@ Deve matricular um aluno
     [Documentation]     Logando com usuário corredo
     [Tags]              login
 
-    Do Login    admin@smartbit.com       qacademy        Admin
+    ${admin}        Create Dictionary
+    ...             email=admin@smartbit.com
+    ...             pass=qacademy
+    ...             name=Admin
+
+    Do Login    ${admin}
     Click       css=a[href="/matriculas"]
 
