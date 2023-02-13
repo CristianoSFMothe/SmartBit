@@ -15,5 +15,8 @@ Deve matricular um aluno
     ...             name=Admin
 
     Do Login    ${admin}
+    # Go To Enroll
     Click       css=a[href="/matriculas"]
+    #Go To Enroll Form
+    Click       css=a[href="/matriculas/new"]
 

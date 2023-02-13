@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Testando a entrar na página de matricular">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Usando super variável">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +49,8 @@
       <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Robotpy.RobotPy: profiler test">
-    <configuration name="RobotPy: coverage sim" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
+  <component name="RunManager" selected="Robotpy.RobotPy: coverage sim">
+    <configuration name="RobotPy: coverage sim" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory">
       <option name="command" value="sim" />
       <option name="options" value="" />
       <option name="profile" value="false" />
@@ -80,7 +81,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Robotpy.RobotPy: profiler test" />
-        <item itemvalue="Robotpy.RobotPy: coverage sim" />
         <item itemvalue="Robotpy.RobotPy: coverage test" />
         <item itemvalue="Robotpy.RobotPy: test" />
       </list>
@@ -160,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676289316348</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":rocket: Usando super variável">
+      <created>1676289574633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676289574633</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":rocket: Usando super variável">
+      <created>1676289587692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676289587692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +201,7 @@
     <MESSAGE value=":rocket: Finalizando a automação do cenario de login" />
     <MESSAGE value=":rocket: Estruturando o page-objects" />
     <MESSAGE value=":rocket: Testando a entrar na página de matricular" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Testando a entrar na página de matricular" />
+    <MESSAGE value=":rocket: Usando super variável" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Usando super variável" />
   </component>
 </project>
