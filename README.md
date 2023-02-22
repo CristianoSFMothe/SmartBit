@@ -25,27 +25,27 @@
 
 1.  Criação do time
 
-![2023-02-22_11h39_00.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-02-22_11h39_00.png)
+![criando-time](https://user-images.githubusercontent.com/68359459/220765256-68f20fa0-46d7-4ee3-8c92-817193decec5.png)
 
 2. Criando uma instância de banco de dados
 
-![2023-02-22_11h41_46.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-02-22_11h41_46.png)
+![criando-instancia-bd](https://user-images.githubusercontent.com/68359459/220765406-11940d60-7f0f-447b-b7c8-66198d2e691c.png)
 
 3.  Informar o nome da instância, nesse caso será **SmartBit**, e clicar em **Select Region**
 
-![criando-instancia-bd-select-region.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-instancia-bd-select-region.png)
+![criando-instancia-bd-select-region](https://user-images.githubusercontent.com/68359459/220765443-8b4bcae4-73fb-4a28-ad86-95a739dc2430.png)
 
 4. Selecionar o Data Center de São Paulo
 
-![criando-instancia-data-center.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-instancia-data-center.png)
+![criando-instancia-data-center](https://user-images.githubusercontent.com/68359459/220765491-6b20b5dd-cd34-4632-b73f-40ae01600422.png)
 
 5. Apos clicar em Review irá informa os dados da instância criada, só confirma
 
-![criando-instancia-review.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-instancia-review.png)
+![criando-instancia-review](https://user-images.githubusercontent.com/68359459/220765556-65cc3e50-c98c-4d6e-bfd1-2233eec25a97.png)
 
 6. Clicando na instância do Bando de Dados criado, iremos obter as infomações para configuração no projeto
 
-![info-instancia.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Finfo-instancia.png)
+![info-instancia](https://user-images.githubusercontent.com/68359459/220765605-4210e7b9-027f-4fe0-a7e6-03798561aee2.png)
 
 ## Configuração do arquivo .env
 
@@ -67,37 +67,38 @@ DB_NAME=database
 
 1. Criar a organização
 
-![criando-organizacao.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-organizacao.png)
+![criando-organizacao](https://user-images.githubusercontent.com/68359459/220765744-3780a811-6f35-41a5-84f4-d012b4a87420.png)
 
 2. Criando o projeto
 
-![criando-projeto.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-projeto.png)
+![criando-projeto](https://user-images.githubusercontent.com/68359459/220765790-c88fa2cd-9197-483c-ad51-a72ac5e9b68d.png)
+
 
 3. Criando a Database
 
-![criar-database.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriar-database.png)
+![criar-database](https://user-images.githubusercontent.com/68359459/220766015-dec13f5b-ac27-43ad-ab7e-925497b88ef1.png)
 
 4. Criando a instância e selecionado a região do Provider
 
-![criando-database-instancia.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcriando-database-instancia.png)
+![criando-database-instancia](https://user-images.githubusercontent.com/68359459/220766053-864dd6da-97da-46ba-bfd3-e2c18ae16e5e.png)
 
 ## Configurando a conexão
 
 1. Selecionar o `Username and Password`
 
-![config-conexao1.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fconfig-conexao1.png)
+![config-conexao1](https://user-images.githubusercontent.com/68359459/220766190-ff1c84fc-04a3-4631-8785-9e285fdc062f.png)
 
-![config-conexao2.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fconfig-conexao2.png)
+![config-conexao2](https://user-images.githubusercontent.com/68359459/220766197-8b932d44-5361-4599-850d-9ea4d525e67c.png)
 
-![config-conexao3.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fconfig-conexao3.png)
+![config-conexao3](https://user-images.githubusercontent.com/68359459/220766210-7a83eec2-bcc2-496d-b220-64a3aca87b93.png)
 
 * Depois de a configuração de usuário estiver feita, clicar em `Connect` 
 
-![config-conexao4.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fconfig-conexao4.png)
+![config-conexao4](https://user-images.githubusercontent.com/68359459/220766268-a38dc9da-8c88-4148-8ffd-931f56148a31.png)
 
 * Em seguida em `Connect your application`
 
-![config-conexao5.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fconfig-conexao5.png)
+![config-conexao5](https://user-images.githubusercontent.com/68359459/220766305-12f0416c-a4bd-43ca-ba6b-b57aefb1b944.png)
 
 * Cópiar a string de conexão e alterar os dados no arquivo `.env` dentro de `apps - api`
 
@@ -122,28 +123,27 @@ MONGO_URL=mongodb+srv://smartbit:<password>@cluster0.2btgpph.mongodb.net/?retryW
 
 1. Com acesso a conta pode-se clicar em `New subscription` realizado as configurações e clicar em `Create subscription`
 
-![redis-home.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fredis-home.png)
+![redis-home](https://user-images.githubusercontent.com/68359459/220766376-d8ecc667-9df1-40bb-8aad-70afd0a5164e.png)
 
 2. Escolhe o plano, do tipo `Fixed Plan`
 
-![fixed-plan.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Ffixed-plan.png)
+![fixed-plan](https://user-images.githubusercontent.com/68359459/220766418-1519a505-ad51-4257-8a46-e2c639ff10a5.png)
 
 3. Selecionando o clound da `AWS`
 
-![fixed-plan2.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Ffixed-plan2.png)
+![fixed-plan2](https://user-images.githubusercontent.com/68359459/220766440-6f47f700-c66e-4c4c-9860-a23468953b68.png)
 
 4. Informando o nome e clocando em `Create subscription`
 
-![fixed-plan3.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Ffixed-plan3.png)
+![fixed-plan3](https://user-images.githubusercontent.com/68359459/220766476-073bf80e-207e-4c9b-8f4b-4840562be4f8.png)
 
 ## Criando a Database
 
-![create-database.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcreate-database.png)
+![create-database](https://user-images.githubusercontent.com/68359459/220766519-8beee738-8ba5-4474-99d7-f68812923e6a.png)
 
 1. Informa o nome do database, deixando todas as informações padrão e clicando em `create database`
 
-![create-database2.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fcreate-database2.png)
-
+![create-database2](https://user-images.githubusercontent.com/68359459/220766566-371cab9a-a519-4fe5-ba92-d48e0215c9ea.png)
 
 2. Editar o arquivo `.env`
 
@@ -153,6 +153,8 @@ REDIS_HOST=redislabs.com
 REDIS_PORT=port
 REDIS_PASS=pass
 ```
-![sting-de-config.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fsting-de-config.png)
+![sting-de-config](https://user-images.githubusercontent.com/68359459/220766628-ed749698-80ef-444b-8284-cacdc626e426.png)
 
-![string-config2.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fstring-config2.png)
+![string-config2](https://user-images.githubusercontent.com/68359459/220766639-ad5d2be6-91ef-4c20-9584-a83adf8f2e3a.png)
+
+
