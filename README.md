@@ -157,4 +157,46 @@ REDIS_PASS=pass
 
 ![string-config2](https://user-images.githubusercontent.com/68359459/220766639-ad5d2be6-91ef-4c20-9584-a83adf8f2e3a.png)
 
+# Mailtrap
 
+## Configuração de conexão
+
+1. Clica em  `Start Testing` na opção de `Email Testing`
+
+![mailtrap-home.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fmailtrap-home.png)
+
+2. Seleciona a opção `NodeJs` em **_Integration_**
+
+![integration.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fintegration.png)
+
+3. Editar o arquivo `.env`
+
+```bash
+# Mail
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_SECURE=false
+MAIL_USER=user
+MAIL_PASS=pass
+```
+
+# Execultado o projeto
+
+1. Editando primeiramente informações no arquivo `up.sh` que esta dentro da pasta `api` 
+
+```bash
+yarn sequelize db:migrate:undo:all
+yarn sequelize db:migrate
+yarn sequelize db:seed:all
+yarn dev
+```
+
+2. No terminal dentro da pasta `api` digitar o comando `chmod +x up.sh`, o **chmod** e um recurso do Linux para dar premissão em arquivos e pastas
+
+3. Agora ainda dentro da pasta `api` digitar o comando `./up.sh`, onde esse comando irá ler todas a estrutura de dados, popular o banco de dados e levantar a **API**, apos isso podemos voltar para o site do ElephantSQL, e no meu **Browser**, podemos ver que o banco de dados foi populado com todas as tabelas
+
+![database.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fdatabase.png)
+
+4. Executando o comando `select * from public.users;` podemos ver que a consulta no banco de dados trouxe as informações do usuário Admin
+
+![select.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fselect.png)
