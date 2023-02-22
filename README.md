@@ -163,11 +163,11 @@ REDIS_PASS=pass
 
 1. Clica em  `Start Testing` na opção de `Email Testing`
 
-![mailtrap-home.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fmailtrap-home.png)
+![mailtrap-home](https://user-images.githubusercontent.com/68359459/220776616-87860745-b4b2-4ff1-852d-a562ced79703.png)
 
 2. Seleciona a opção `NodeJs` em **_Integration_**
 
-![integration.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fintegration.png)
+![integration](https://user-images.githubusercontent.com/68359459/220776638-b1feed51-69da-46a7-85cb-c036325a444c.png)
 
 3. Editar o arquivo `.env`
 
@@ -195,8 +195,9 @@ yarn dev
 
 3. Agora ainda dentro da pasta `api` digitar o comando `./up.sh`, onde esse comando irá ler todas a estrutura de dados, popular o banco de dados e levantar a **API**, apos isso podemos voltar para o site do ElephantSQL, e no meu **Browser**, podemos ver que o banco de dados foi populado com todas as tabelas
 
-![database.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fdatabase.png)
+![database](https://user-images.githubusercontent.com/68359459/220776497-e824fd30-782a-4ad5-9fd4-22fb580b253b.png)
 
 4. Executando o comando `select * from public.users;` podemos ver que a consulta no banco de dados trouxe as informações do usuário Admin
 
-![select.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fselect.png)
+![select](https://user-images.githubusercontent.com/68359459/220776547-52ef90da-b455-456a-a3e2-667c3c42df1a.png)
+
