@@ -204,7 +204,7 @@ yarn dev
 
 5. Abrindo a pasta `web`, e executando o comando `yarn start`, podemos acessa a página principal da **Smart Bit** <a href="http://localhost:3000" target="blank">http://localhost:3000</a>
 
-![2023-02-25_10h57_03.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-02-25_10h57_03.png)
+![2023-02-25_10h57_03](https://user-images.githubusercontent.com/68359459/221361480-5bc5ad4b-b9d5-47b4-95b1-a00e8dd76937.png)
 
 ```bash
   "email": "admin@smartbit.com",
