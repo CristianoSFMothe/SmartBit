@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Usando super variável">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Ãlogs/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Ãlogs/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/playwright-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Ãlogs/playwright-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Ãlogs/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

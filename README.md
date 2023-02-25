@@ -213,6 +213,10 @@ yarn dev
 
 # Suite de Testes
 
+> Caso de teste para login como administrador
+
+<details><summary>Scripts de testes</summary>
+
 ## Teste online
 
 Verifica se a aplicação está online
@@ -220,3 +224,52 @@ Verifica se a aplicação está online
 ```bash
 robot -d ./logs tests/online.robot 
 ```
+
+## Teste de Login
+
+```bash
+robot -d ./logs -i login tests/login.robot 
+```
+## Teste de Login - e-mail não encontrado
+
+```bash
+robot -d ./logs -i email-invalid tests/login.robot 
+```
+
+## Teste de Login - senha incorreda
+
+```bash
+robot -d ./logs -i password-invalid tests/login.robot 
+```
+
+## Teste de Login - E-mail formato inválid
+
+```bash
+robot -d ./logs -i email-incorred tests/login.robot 
+```
+
+# Teste de Login - Senha em branco
+
+```bash
+robot -d ./logs -i password-empty tests/login.robot 
+``
+
+## Teste de Login - E-mail em branco
+
+```bash
+robot -d ./logs -i email-empty tests/login.robot 
+```
+
+## Teste de Login - Senha e E-mail em branco
+
+```bash
+robot -d ./logs -i fiel-empty tests/login.robot
+```
+
+## Teste suite completa
+
+```bash
+robot -d ./logs tests/login.robot 
+```
+
+</details>

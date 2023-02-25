@@ -68,7 +68,7 @@ Email e senha são obrigatórios
 
     Go To Login Page
     Submit Credentials
-    Alert Text Should Be       email     O e-mail é obrigatório
+    Alert Text Should Be        email       O e-mail é obrigatório
     Alert Text Should Be        password    A senha é obrigatória
 
 
