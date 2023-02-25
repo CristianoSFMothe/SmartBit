@@ -10,6 +10,7 @@
    *    Yarn `1.22.19` (para habilitar ele no `corepack enable`)
 3. [Python](https://www.python.org/) `Python 3.11.2`
 4. [Robot Framework](https://robotframework.org/) `Robot Framework 6.0.2 (Python 3.11.2 on win32)`
+5. [Library Browser](https://github.com/MarketSquare/robotframework-browser)
 5. [ElephantSQL](https://www.elephantsql.com/?_gl=1*6a324p*_ga*MTk4ODU4Mjk5My4xNjc2NDg2OTk3*_ga_37GXT4VGQK*MTY3NzA3NDMyMS44LjEuMTY3NzA3NjIwMy4wLjAuMA..)
 6. [MongoDB](https://www.mongodb.com/?_gl=1*6a324p*_ga*MTk4ODU4Mjk5My4xNjc2NDg2OTk3*_ga_37GXT4VGQK*MTY3NzA3NDMyMS44LjEuMTY3NzA3NjIwMy4wLjAuMA..)
 7. [Redis](https://redis.io/?_gl=1*vsng43*_ga*MTk4ODU4Mjk5My4xNjc2NDg2OTk3*_ga_37GXT4VGQK*MTY3NzA3NDMyMS44LjEuMTY3NzA3NjIwMy4wLjAuMA..) 
@@ -199,10 +200,23 @@ yarn dev
 
 4. Executando o comando `select * from public.users;` podemos ver que a consulta no banco de dados trouxe as informações do usuário Admin
 
-
-![select.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fselect.png)
+![select](https://user-images.githubusercontent.com/68359459/220776547-52ef90da-b455-456a-a3e2-667c3c42df1a.png)
 
 5. Abrindo a pasta `web`, e executando o comando `yarn start`, podemos acessa a página principal da **Smart Bit** <a href="http://localhost:3000" target="blank">http://localhost:3000</a>
 
-![select](https://user-images.githubusercontent.com/68359459/220776547-52ef90da-b455-456a-a3e2-667c3c42df1a.png)
+![2023-02-25_10h57_03.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-02-25_10h57_03.png)
 
+```bash
+  "email": "admin@smartbit.com",
+  "password": "qacademy"
+```
+
+# Suite de Testes
+
+## Teste online
+
+Verifica se a aplicação está online
+
+```bash
+robot -d ./logs tests/online.robot 
+```
