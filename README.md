@@ -1,6 +1,6 @@
 # Smart Bit
 
-> Sistema de gerenciamento de acadêmias 
+> Sistema de gestão de acadêmias 
 
 ## Pré-requistos
 
@@ -39,7 +39,7 @@
 
 ![criando-instancia-data-center](https://user-images.githubusercontent.com/68359459/220765491-6b20b5dd-cd34-4632-b73f-40ae01600422.png)
 
-5. Apos clicar em Review irá informa os dados da instância criada, só confirma
+5. Apos clicar em Review irá informar os dados da instância criada, só confirma
 
 ![criando-instancia-review](https://user-images.githubusercontent.com/68359459/220765556-65cc3e50-c98c-4d6e-bfd1-2233eec25a97.png)
 
@@ -49,7 +49,7 @@
 
 ## Configuração do arquivo .env
 
-Dentro da pasta `apps` -> `api` abrir o arquivo `.env` e substituir as informações
+Na pasta `apps` -> `api` abrir o arquivo `.env` e substituir as informações
 
 ```bash
 # Database => ElephantSQL
@@ -92,7 +92,7 @@ DB_NAME=database
 
 ![config-conexao3](https://user-images.githubusercontent.com/68359459/220766210-7a83eec2-bcc2-496d-b220-64a3aca87b93.png)
 
-* Depois de a configuração de usuário estiver feita, clicar em `Connect` 
+* Após a configuração de usuário estiver feita, clicar em `Connect` 
 
 ![config-conexao4](https://user-images.githubusercontent.com/68359459/220766268-a38dc9da-8c88-4148-8ffd-931f56148a31.png)
 
@@ -121,7 +121,7 @@ MONGO_URL=mongodb+srv://smartbit:<password>@cluster0.2btgpph.mongodb.net/?retryW
 
 ## Configuração
 
-1. Com acesso a conta pode-se clicar em `New subscription` realizado as configurações e clicar em `Create subscription`
+1. Com acesso à conta pode-se clicar em `New subscription` realizado as configurações e clicar em `Create subscription`
 
 ![redis-home](https://user-images.githubusercontent.com/68359459/220766376-d8ecc667-9df1-40bb-8aad-70afd0a5164e.png)
 
@@ -182,7 +182,7 @@ MAIL_PASS=pass
 
 # Execultado o projeto
 
-1. Editando primeiramente informações no arquivo `up.sh` que esta dentro da pasta `api` 
+1. Editando primeiramente informações no arquivo `up.sh` que esta na pasta `api` 
 
 ```bash
 yarn sequelize db:migrate:undo:all
@@ -191,12 +191,15 @@ yarn sequelize db:seed:all
 yarn dev
 ```
 
-2. No terminal dentro da pasta `api` digitar o comando `chmod +x up.sh`, o **chmod** e um recurso do Linux para dar premissão em arquivos e pastas
+2. No terminal na pasta `api` digitar o comando `chmod +x up.sh`, o **chmod** e um recurso do Linux para dar premissão em arquivos e pastas
 
-3. Agora ainda dentro da pasta `api` digitar o comando `./up.sh`, onde esse comando irá ler todas a estrutura de dados, popular o banco de dados e levantar a **API**, apos isso podemos voltar para o site do ElephantSQL, e no meu **Browser**, podemos ver que o banco de dados foi populado com todas as tabelas
+3. Agora ainda na pasta `api` digitar o comando `./up.sh`, onde esse comando irá ler todas a estrutura de dados, popular o banco de dados e levantar a **API**, apos isso podemos voltar para o site do ElephantSQL, e no meu **Browser**, podemos ver que o banco de dados foi populado com todas as tabelas
 
 ![database.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fdatabase.png)
 
 4. Executando o comando `select * from public.users;` podemos ver que a consulta no banco de dados trouxe as informações do usuário Admin
 
 ![select.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2Fselect.png)
+
+5. Abrindo a pasta `web`, e executando o comando `yarn start`, podemos acessa a página principal da **Smart Bit** <a href="http://localhost:3000" target="blank">http://localhost:3000</a>
+
