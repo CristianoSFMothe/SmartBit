@@ -125,3 +125,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+Web/Ãlogs/output.xml
+Web/Ãlogs/output.xml
+Web/Ãlogs/playwright-log.txt
+*.html
+Web/Ãlogs/report.html
+/Web/Ãlogs/

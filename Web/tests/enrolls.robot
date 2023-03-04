@@ -6,7 +6,7 @@ Resource           ../resources/base.resource
 
 *** Test Cases ***
 Deve matricular um aluno
-    [Documentation]     Logando com usuário corredo
+    [Documentation]     Logando com usuário administrado
     [Tags]              login
 
     ${admin}        Create Dictionary
@@ -15,8 +15,16 @@ Deve matricular um aluno
     ...             name=Admin
 
     Do Login    ${admin}
-    # Go To Enroll
-    Click       css=a[href="/matriculas"]
-    #Go To Enroll Form
-    Click       css=a[href="/matriculas/new"]
+
+    Go To Enroll
+    Go To Enroll Form
+    Select Student          Falcão Não mexer
+    Select Plan             Smart
+    Fill Start Date
+
+
+
+
+
+    Sleep    3
 

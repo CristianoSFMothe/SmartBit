@@ -211,13 +211,13 @@ yarn dev
   "password": "qacademy"
 ```
 
-# Suite de Testes
+# Suites de Testes
 
 > Caso de teste para login como administrador
 
-<details><summary>Scripts de testes</summary>
+## Teste Login
 
-## Teste online
+<details><summary>Scripts de testes para suite de login</summary>
 
 Verifica se a aplicação está online
 
@@ -270,6 +270,18 @@ robot -d ./logs -i fiel-empty tests/login.robot
 
 ```bash
 robot -d ./logs tests/login.robot 
+```
+
+</details>
+
+## Teste Login
+
+<details><summary>Scripts de testes para suite de matricula</summary>
+
+## Login
+
+```bash
+robot -d ./logs -i login tests/enrolls.robot 
 ```
 
 </details>
