@@ -2,6 +2,7 @@
 Documentation       Keywords que reprenseta a págia de cadastros de matriculoas
 
 Library         Browser
+Library         libs/DateTricks.py
 
 
 *** Keywords ***
@@ -29,11 +30,9 @@ Select Plan
 Fill Start Date
 
     Focus           css=input[name=start_date]
-    Keyboard Key    press    1
-    Keyboard Key    press    1
-    Keyboard Key    press    1
-    Keyboard Key    press    1
-    Keyboard Key    press    2
-    Keyboard Key    press    0
-    Keyboard Key    press    2
-    Keyboard Key    press    3
+
+    ${start_date}       Get Start Date
+
+    FOR     ${number}       IN       @{start_date}    
+        Keyboard Key    press    ${number}    
+    END

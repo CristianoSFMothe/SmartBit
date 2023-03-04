@@ -21,10 +21,7 @@ Deve matricular um aluno
     Select Student          Falcão Não mexer
     Select Plan             Smart
     Fill Start Date
-
-
-
-
+    
 
     Sleep    3
 

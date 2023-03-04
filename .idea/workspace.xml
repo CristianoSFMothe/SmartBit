@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Usando super variável">
-      <change afterPath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: 1 parte da automatizacao de matricula">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/resources/pages/libs/DateTricks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/base.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/base.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,26 +24,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LYVBldopjQ3YgPKG3IRKFiveFj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/SmartBit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/SmartBit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\components" />
@@ -84,9 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robotpy.RobotPy: test" />
         <item itemvalue="Robotpy.RobotPy: profiler test" />
         <item itemvalue="Robotpy.RobotPy: coverage test" />
-        <item itemvalue="Robotpy.RobotPy: test" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676289587692</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=":rocket: 1 parte da automatizacao de matricula">
+      <created>1677931959607</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677931959607</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":rocket: testando se a aplicação está online" />
     <MESSAGE value=":rocket: Testando cenarios de Login valido e login invalido" />
     <MESSAGE value=":rocket: Refatorando a massa de teste para login" />
@@ -206,6 +218,7 @@
     <MESSAGE value=":rocket: Estruturando o page-objects" />
     <MESSAGE value=":rocket: Testando a entrar na página de matricular" />
     <MESSAGE value=":rocket: Usando super variável" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Usando super variável" />
+    <MESSAGE value=":rocket: 1 parte da automatizacao de matricula" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: 1 parte da automatizacao de matricula" />
   </component>
 </project>
