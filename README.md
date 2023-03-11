@@ -278,10 +278,15 @@ robot -d ./logs tests/login.robot
 
 <details><summary>Scripts de testes para suite de matricula</summary>
 
-## Login
+## Teste de nova matricula
 
 ```bash
 robot -d ./logs -i login tests/enrolls.robot 
 ```
 
 </details>
+
+## Gerenciando a Dabase via Robot Framework
+
+Para dar uma maior legibilidade ao processo de automação, será necessário usar o <a href="https://franz-see.github.io/Robotframework-Database-Library/" target="blank">Database Library</a>, na documentação oficial temos o comando para instalação via pip `pip install -U robotframework-databaselibrary`
+Também teremos que instalar o driver **psycopg2** responsável por fazer a conexão do Python com o PostgreSQL, atráves do comando `pip install -U psycopg2`

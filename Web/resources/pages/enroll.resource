@@ -28,6 +28,7 @@ Select Plan
     Click       css=div[class$=option] >> text=${plan_name}
 
 Fill Start Date
+  
 
     Focus           css=input[name=start_date]
 
@@ -36,3 +37,6 @@ Fill Start Date
     FOR     ${number}       IN       @{start_date}    
         Keyboard Key    press    ${number}    
     END
+    
+Submmit Enroll Form
+    Click    css=button >> text=Salvar

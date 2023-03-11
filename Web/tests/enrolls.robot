@@ -5,6 +5,14 @@ Documentation       Suite de teste de matriculas de alunos
 Resource           ../resources/base.resource
 
 *** Test Cases ***
+Testa no banco de dados
+    [Tags]      db
+    Connect To Postgres
+    ${user}     Select Studente Where Email    falcao@gmail.com
+    Delete Enroll    ${user}[0]
+    Disconnect From Database
+    
+    
 Deve matricular um aluno
     [Documentation]     Logando com usuário administrado
     [Tags]              login
@@ -13,6 +21,9 @@ Deve matricular um aluno
     ...             email=admin@smartbit.com
     ...             pass=qacademy
     ...             name=Admin
+    
+    Connect To Postgres
+    Delete Enroll
 
     Do Login    ${admin}
 
@@ -21,6 +32,8 @@ Deve matricular um aluno
     Select Student          Falcão Não mexer
     Select Plan             Smart
     Fill Start Date
+    Submmit Enroll Form
+    Verify Toaster    Matrícula cadastrada com sucesso
     
 
     Sleep    3
