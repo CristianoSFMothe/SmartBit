@@ -102,7 +102,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Serverless directories
 .serverless/
@@ -126,8 +125,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 Web/Ãlogs/output.xml
-Web/Ãlogs/output.xml
 Web/Ãlogs/playwright-log.txt
 *.html
 Web/Ãlogs/report.html
 /Web/Ãlogs/
+
+__pycache__

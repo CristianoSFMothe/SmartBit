@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: 1 parte da automatizacao de matricula">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/resources/pages/libs/DateTricks.py" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: 1 parte da automatizacao de matricula data">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/playwright-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Ãlogs/report.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677931959607</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=":rocket: 1 parte da automatizacao de matricula data">
+      <created>1677936063634</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677936063634</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +226,7 @@
     <MESSAGE value=":rocket: Testando a entrar na página de matricular" />
     <MESSAGE value=":rocket: Usando super variável" />
     <MESSAGE value=":rocket: 1 parte da automatizacao de matricula" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: 1 parte da automatizacao de matricula" />
+    <MESSAGE value=":rocket: 1 parte da automatizacao de matricula data" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: 1 parte da automatizacao de matricula data" />
   </component>
 </project>
