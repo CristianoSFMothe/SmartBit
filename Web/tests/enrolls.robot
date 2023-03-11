@@ -13,9 +13,7 @@ Deve matricular um aluno
     ${admin}          Get Fixture    admin   
     ${student}        Get Fixture    student  
     
-    Connect To Postgres
-    Delete Enroll By Email    ${student}[email]
-    Disconnect From Database
+    Reserte Student Enroll    ${student}[email]
 
     Do Login    ${admin}
 

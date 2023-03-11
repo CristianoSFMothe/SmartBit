@@ -27,3 +27,4 @@ Get Fixture
     ...             encoding=UTF-8 
     
     [Return]        ${fixture}
+    
