@@ -4,15 +4,7 @@ Documentation       Suite de teste de matriculas de alunos
 
 Resource           ../resources/base.resource
 
-*** Test Cases ***
-Testa no banco de dados
-    [Tags]      db
-    Connect To Postgres
-    ${user}     Select Studente Where Email    falcao@gmail.com
-    Delete Enroll    ${user}[0]
-    Disconnect From Database
-    
-    
+*** Test Cases ***    
 Deve matricular um aluno
     [Documentation]     Logando com usuário administrado
     [Tags]              login
@@ -23,7 +15,8 @@ Deve matricular um aluno
     ...             name=Admin
     
     Connect To Postgres
-    Delete Enroll
+    Delete Enroll By Email    falcao@gmail.com
+    Disconnect From Database
 
     Do Login    ${admin}
 

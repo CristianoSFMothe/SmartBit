@@ -19,13 +19,15 @@ Select Studente Where Email
     ...             SELECT * FROM public.students WHERE email = '${email}'
     ${result}       Query           ${query}
     
-    [Return]        ${result}[0][0]
+    [Return]        ${result}[0]
     
-Delete Enroll
-    [Arguments]     ${student_id}
+Delete Enroll By Email
+    [Arguments]     ${email}
+    
+    ${user}         Select Studente Where Email     ${email}
     
     ${query}        Set Variable
-    ...             DELETE FROM public.enrollments WHERE student_id = ${student_id};
+    ...             DELETE FROM public.enrollments WHERE student_id = '${user}[0]';
     
     Execute Sql String    ${query}
         
