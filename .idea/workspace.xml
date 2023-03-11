@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Capturando os dados do estudante pelo o email e descubrindo qual é seu ID">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Refatorando a capturando os dados do estudante">
+      <change afterPath="$PROJECT_DIR$/Web/resources/fixtures/admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/resources/fixtures/student.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/database.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/database.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/resources/base.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Web/resources/base.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Web/tests/enrolls.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678567554153</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":rocket: Refatorando a capturando os dados do estudante">
+      <created>1678569301597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678569301597</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +250,7 @@
     <MESSAGE value=":rocket: 1 parte da automatizacao de matricula data" />
     <MESSAGE value=":rocket: Usando o Python para otimizar a data" />
     <MESSAGE value=":rocket: Capturando os dados do estudante pelo o email e descubrindo qual é seu ID" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Capturando os dados do estudante pelo o email e descubrindo qual é seu ID" />
+    <MESSAGE value=":rocket: Refatorando a capturando os dados do estudante" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Refatorando a capturando os dados do estudante" />
   </component>
 </project>

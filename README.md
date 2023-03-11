@@ -286,7 +286,11 @@ robot -d ./logs -i login tests/enrolls.robot
 
 </details>
 
-## Gerenciando a Dabase via Robot Framework
+## Gerenciando a Database via Robot Framework
 
 Para dar uma maior legibilidade ao processo de automação, será necessário usar o <a href="https://franz-see.github.io/Robotframework-Database-Library/" target="blank">Database Library</a>, na documentação oficial temos o comando para instalação via pip `pip install -U robotframework-databaselibrary`
 Também teremos que instalar o driver **psycopg2** responsável por fazer a conexão do Python com o PostgreSQL, atráves do comando `pip install -U psycopg2`
+
+## Tratando a massa de dados com JSON
+
+Para faciltar o trabalho com a massa de dados, podemos usar o **JSON**, para flexibilizar a utilização de dados, para tal e necessa instalar a library do <a href="https://github.com/robotframework-thailand/robotframework-jsonlibrary" targe="blank">JSON Library</a>, usando o pip com o seguinte comando `pip install -U robotframework-jsonlibrary`
