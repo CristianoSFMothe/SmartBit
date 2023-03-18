@@ -340,3 +340,43 @@ Para faciltar o trabalho com a massa de dados, podemos usar o **JSON**, para fle
 ```bash
 pip install -U robotframework-jsonlibrary
 ````
+
+# API
+
+## Trabalhando com a API
+
+Para o <a href="https://github.com/MarketSquare/robotframework-requests#readme" target="blank">Robot Framework</a> trabalha com API, é necessário instalar a Library para isso, como o seguinte comando:
+```bash
+pip install -U robotframework-requests
+```
+
+# Mobile
+
+## Pré-requistos
+
+Para a automatização com o **Mobile**, precisamos ter:
+* <a href="https://www.oracle.com/br/java/technologies/downloads/" target="blank">JDK 8</a> 
+* <a href="https://developer.android.com/studio" target="blank">Android Studio</a>
+* <a href="https://appium.io/" target="blank">Servidor Appium</a>
+* Assimo como as variáveis de ambiente configuradas do Java e o Android Studio
+
+![2023-03-17_22h53_47.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-03-17_22h53_47.png)
+
+**OBS.:** Verificar a configuração do Computador para ver se suporta o Android Studio com um emulador, caso não suporte usar o dispovitivo fisico.
+
+## Configurações do Appium
+
+* Página inicial do Appium
+
+![img.png](img.png)
+
+* Clicando em **Edit Configurations**, exibe as variáveis de ambiente configurada do **Java** e do **Android Studio**
+
+![img_1.png](img_1.png)
+
+* Servidor do **Appium** funcioando
+
+![img_2.png](img_2.png)
+
+
+
