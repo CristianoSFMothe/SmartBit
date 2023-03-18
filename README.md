@@ -359,8 +359,8 @@ Para a automatização com o **Mobile**, precisamos ter:
 * <a href="https://developer.android.com/studio" target="blank">Android Studio</a>
 * <a href="https://appium.io/" target="blank">Servidor Appium</a>
 * Assimo como as variáveis de ambiente configuradas do Java e o Android Studio
-
-![2023-03-17_22h53_47.png](..%2F..%2F..%2F..%2F..%2FPictures%2FScreenpresso%2F2023-03-17_22h53_47.png)
+  
+![2023-03-17_22h53_47](https://user-images.githubusercontent.com/68359459/226134130-de0f01bc-607f-408b-bdb1-665087505fb4.png)
 
 **OBS.:** Verificar a configuração do Computador para ver se suporta o Android Studio com um emulador, caso não suporte usar o dispovitivo fisico.
 
