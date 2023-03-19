@@ -376,7 +376,7 @@ Para a automatização com o **Mobile**, precisamos ter:
 
 * Servidor do **Appium** funcioando
 
-![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 
 

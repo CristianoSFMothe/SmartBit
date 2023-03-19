@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Automatizando via API">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/Web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/resources/fixtures/falcao.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/resources/services/sessions.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/resources/services/students.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/app/smartbit-beta.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/base.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/base.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/components/navbar.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/components/navbar.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/components/toast.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/components/toast.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/database.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/database.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/fixtures/admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/fixtures/admin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/fixtures/student.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/pages/enroll.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/pages/enroll.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/pages/libs/DateTricks.py" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/pages/libs/DateTricks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/resources/pages/login.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/resources/pages/login.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/tests/enrolls.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/tests/login.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/tests/online.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/tests/online.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
