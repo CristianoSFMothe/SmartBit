@@ -367,16 +367,16 @@ Para a automatização com o **Mobile**, precisamos ter:
 ## Configurações do Appium
 
 * Página inicial do Appium
-
-![img.png](img.png)
+  
+![2023-03-18_16h35_26](https://user-images.githubusercontent.com/68359459/226146452-7663f29b-1845-4ecd-96e9-e7056ef319d4.png)
 
 * Clicando em **Edit Configurations**, exibe as variáveis de ambiente configurada do **Java** e do **Android Studio**
 
-![img_1.png](img_1.png)
+![2023-03-18_16h36_26](https://user-images.githubusercontent.com/68359459/226146489-95a862c3-b7a0-4910-9639-d13adbc9e7b5.png)
 
-* Servidor do **Appium** funcioando
+* Configurações dos Desider Capabilities
 
-![img_2.png](img_2.png)
+![2023-03-18_18h00_24](https://user-images.githubusercontent.com/68359459/226146535-28846791-a557-45e0-bf0a-970aa1a1bbc5.png)
 
 
 
