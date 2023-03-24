@@ -378,6 +378,11 @@ Para a automatização com o **Mobile**, precisamos ter:
 
 ![2023-03-18_18h00_24](https://user-images.githubusercontent.com/68359459/226146535-28846791-a557-45e0-bf0a-970aa1a1bbc5.png)
 
+## Instalação do Appium no Robot Framework
 
+No site do <a href="https://robotframework.org/#resources" target="blank">Robot Framework</a> na parte dos **resources**, podemos pesquisar por **mobile**, teremos a **AppiumLibrary**, que irá nos direncionar para a página do <a href="https://github.com/serhatbolsu/robotframework-appiumlibrary" target="blank">GitHub</a>, não qual iremos obter o comando para a instalação 
+```bash
+pip install --upgrade robotframework-appiumlibrary
+```
 
 
