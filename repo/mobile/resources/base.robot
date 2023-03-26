@@ -4,8 +4,7 @@ Documentation       Arquivo prinicipal
 Library             AppiumLibrary
 Library             JSONLibrary
 
-*** Variables ***
-${API_URL}          http://192.168.1.5:3333
+Resource            screens/login.resource
 
 *** Keywords ***
 Start App

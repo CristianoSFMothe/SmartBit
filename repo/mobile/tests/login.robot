@@ -3,23 +3,35 @@ Documentation       Suite de testes de login
 
 Resource            ../resources/base.robot
 
+Test Setup          Start App
+Test Teardown       Finish App
+
+
+*** Variables ***
+${errir_401}       Acesso não autorizado! Entre em contato com a equipe de atendimento.
+
 *** Test Cases ***
 Deve abrir o app da Smartibit
-    ${falcao}   Get Fixture    falcao
+    ${falcao}   Get Fixture    falcao      
     
-    Start App
+    Login With Student Id     ${falcao}[student][id]   
     
-    Input Text    xpath=//android.widget.EditText[@text="Informe o endereço ip da api"]    
-    ...           ${API_URL}
-    
-    Input Text    xpath=//android.widget.EditText[@text="Informe seu código de acesso"]    
-    ...           ${falcao}[student][id]
-    
-    Click Text    Entrar    
-    
-    Wait Until Page Contains    Olá, ${falcao}[student][name]!
-    
+    Wait Until Page Contains    Olá, ${falcao}[student][name]!    
       
-    Finish App	 
-  
+Codigo de Aluno Incorreto
+    Login With Student Id    9999
+    
+    Wait Until Page Contains    ${errir_401}
+    
+    
+Codigo de Aluno Negativo
+    Login With Student Id    -1
+    
+    Wait Until Page Contains   ${errir_401}   
+    
+    
+Codigo de Aluno Alphanumerico
+    Login With Student Id    abc123
+    
+    Wait Until Page Contains    ${errir_401}
   
