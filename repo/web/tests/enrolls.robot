@@ -13,7 +13,7 @@ Deve matricular um aluno
     ${admin}          Get Fixture    admin   
     ${falcao}         Get Fixture    falcao  
     
-    Reserte Student    ${falcao}[student][email]
+    Resert Student    ${falcao}[student][email]
     
     ${token}    Get Service Token     ${admin}
     

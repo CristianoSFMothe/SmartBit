@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Automatizando via API">
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/screens/login.resource" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Padrão PageObject no Appium">
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/database.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/sessions.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/mobile/resources/base.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/base.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/tests/login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/resources/database.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/resources/database.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/tests/enrolls.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/SmartBit/Web/resources/services&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/RoboCamp/SmartBit/repo/mobile/resources/fixtures&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,9 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\resources\fixtures" />
+      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\resources" />
+      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\tests" />
       <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\SmartBit\Web\resources\services" />
       <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\components" />
-      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\tests" />
@@ -254,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678576783634</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":rocket: Padrão PageObject no Appium">
+      <created>1679849260128</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849260128</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +305,7 @@
     <MESSAGE value=":rocket: Refatorando a capturando os dados do estudante" />
     <MESSAGE value=":rocket: Externalizando a massa de teste" />
     <MESSAGE value=":up: Arruamando o README" />
-    <option name="LAST_COMMIT_MESSAGE" value=":up: Arruamando o README" />
+    <MESSAGE value=":rocket: Padrão PageObject no Appium" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Padrão PageObject no Appium" />
   </component>
 </project>

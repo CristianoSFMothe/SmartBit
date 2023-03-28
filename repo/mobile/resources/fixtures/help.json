@@ -1,0 +1,12 @@
+{
+  "student": {
+    "name": "Cristiano Mothe",
+    "email": "cristiano@smartbit.com",
+    "age": 37,
+    "feet_tall": 1.71,
+    "weight": 90
+  },
+  "enroll": {
+    "plan": "Smart"
+  }
+}
