@@ -3,8 +3,8 @@
       "feet_tall": 1.78,
       "weight": 80,
       "age": 22,
-      "name": "Falcão do Santos",
-      "email": "falcao@yahoo.com"    
+      "email": "falcao@yahoo.com",    
+      "name": "Falcão do Santos"
   },
   "enroll": {
     "plan": "Smart"

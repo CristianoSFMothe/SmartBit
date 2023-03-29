@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Matriculando um novo aluno via API no Mobile">
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Criando a massa para enviar ajuda via mobile">
+      <change afterPath="$PROJECT_DIR$/repo/Web/log/browser/screenshot/fail-screenshot-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/Web/log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repo/Web/log/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/Web/log/playwright-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/repo/Web/log/playwright-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/resources/fixtures/falcao.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/resources/fixtures/falcao.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/resources/pages/enroll.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/resources/pages/enroll.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/tests/enrolls.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/tests/login.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/web/tests/online.robot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
