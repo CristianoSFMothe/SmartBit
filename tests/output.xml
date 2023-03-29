@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230210 17:07:54.585" rpa="false" schemaversion="3">
+<suite id="s1" name="Hello" source="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\tests\hello.robot">
+<test id="s1-t1" name="Deve exibir mensagem de boas vindas" line="5">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Olá Robot Framework</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230210 17:07:54.607" endtime="20230210 17:07:54.608"/>
+</kw>
+<status status="PASS" starttime="20230210 17:07:54.607" endtime="20230210 17:07:54.608"/>
+</test>
+<doc>Hello Robot</doc>
+<status status="PASS" starttime="20230210 17:07:54.587" endtime="20230210 17:07:54.608"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

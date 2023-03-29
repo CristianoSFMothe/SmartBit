@@ -1,80 +1,80 @@
-{"level":30,"time":"2023-03-29T20:14:41.640Z","pid":19656,"hostname":"Cristiano","msg":"Listening on 58978"}
-{"level":30,"time":"2023-03-29T20:14:41.670Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:41.670Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:41.674Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:41.674Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:42.001Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2023-03-29T20:14:42.747Z","pid":19656,"hostname":"Cristiano","msg":"End of node method newBrowser"}
-{"level":30,"time":"2023-03-29T20:14:42.752Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-03-29T20:14:42.752Z","pid":19656,"hostname":"Cristiano","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-03-29T20:14:42.775Z","pid":19656,"hostname":"Cristiano","msg":"Changed active context"}
-{"level":30,"time":"2023-03-29T20:14:43.219Z","pid":19656,"hostname":"Cristiano","msg":"Video path: undefined"}
-{"level":30,"time":"2023-03-29T20:14:43.219Z","pid":19656,"hostname":"Cristiano","msg":"Changed active page"}
-{"level":30,"time":"2023-03-29T20:14:44.014Z","pid":19656,"hostname":"Cristiano","msg":"End of node method newPage"}
-{"level":30,"time":"2023-03-29T20:14:44.022Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.023Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu e-mail\"] in page."}
-{"level":30,"time":"2023-03-29T20:14:44.093Z","pid":19656,"hostname":"Cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.098Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.099Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Senha\"] in page."}
-{"level":30,"time":"2023-03-29T20:14:44.123Z","pid":19656,"hostname":"Cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.129Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.129Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar no sistema in page."}
-{"level":30,"time":"2023-03-29T20:14:44.207Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.215Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2023-03-29T20:14:44.216Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2023-03-29T20:14:44.420Z","pid":19656,"hostname":"Cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2023-03-29T20:14:44.426Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getText"}
-{"level":30,"time":"2023-03-29T20:14:44.427Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2023-03-29T20:14:44.471Z","pid":19656,"hostname":"Cristiano","msg":"Retrieved text for element css=aside strong containing Admin"}
-{"level":30,"time":"2023-03-29T20:14:44.472Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getText"}
-{"level":30,"time":"2023-03-29T20:14:44.479Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.479Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=a[href=\"/matriculas\"] in page."}
-{"level":30,"time":"2023-03-29T20:14:44.563Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.569Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.569Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=a[href=\"/matriculas/new\"] in page."}
-{"level":30,"time":"2023-03-29T20:14:44.709Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.714Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.714Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(text(), \"nome do aluno\")]/..//input in page."}
-{"level":30,"time":"2023-03-29T20:14:44.790Z","pid":19656,"hostname":"Cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2023-03-29T20:14:44.794Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.794Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Falcão do Santos in page."}
-{"level":30,"time":"2023-03-29T20:14:44.918Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.922Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.923Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"PLANO\"]/..//div[contains(text(), \"Selecione\")] in page."}
-{"level":30,"time":"2023-03-29T20:14:44.985Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.990Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:44.990Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Smart in page."}
-{"level":30,"time":"2023-03-29T20:14:45.048Z","pid":19656,"hostname":"Cristiano","msg":"End of node method click"}
-{"level":30,"time":"2023-03-29T20:14:45.053Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method focus"}
-{"level":30,"time":"2023-03-29T20:14:45.053Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[name=start_date] in page."}
-{"level":30,"time":"2023-03-29T20:14:45.069Z","pid":19656,"hostname":"Cristiano","msg":"End of node method focus"}
-{"level":30,"time":"2023-03-29T20:14:45.076Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.076Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"0\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.082Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.086Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.086Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"3\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.092Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.096Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.096Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.100Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.103Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.104Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"9\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.112Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.115Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.115Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.123Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.127Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.127Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"0\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.134Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.138Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.138Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.148Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.151Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.151Z","pid":19656,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"3\"]"}
-{"level":30,"time":"2023-03-29T20:14:45.164Z","pid":19656,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
-{"level":30,"time":"2023-03-29T20:14:45.168Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2023-03-29T20:14:45.168Z","pid":19656,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Salvar in page."}
-{"level":30,"time":"2023-03-29T20:14:55.184Z","pid":19656,"hostname":"Cristiano","msg":"Error of node method  click"}
+{"level":30,"time":"2023-03-29T01:36:23.675Z","pid":11892,"hostname":"Cristiano","msg":"Listening on 52153"}
+{"level":30,"time":"2023-03-29T01:36:23.980Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:23.981Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:23.986Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:23.986Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:24.753Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-03-29T01:36:25.586Z","pid":11892,"hostname":"Cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-03-29T01:36:25.591Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-03-29T01:36:25.591Z","pid":11892,"hostname":"Cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-03-29T01:36:25.624Z","pid":11892,"hostname":"Cristiano","msg":"Changed active context"}
+{"level":30,"time":"2023-03-29T01:36:26.069Z","pid":11892,"hostname":"Cristiano","msg":"Video path: undefined"}
+{"level":30,"time":"2023-03-29T01:36:26.070Z","pid":11892,"hostname":"Cristiano","msg":"Changed active page"}
+{"level":30,"time":"2023-03-29T01:36:27.297Z","pid":11892,"hostname":"Cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2023-03-29T01:36:27.308Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu e-mail\"] in page."}
+{"level":30,"time":"2023-03-29T01:36:27.307Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:27.407Z","pid":11892,"hostname":"Cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:27.412Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:27.412Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Senha\"] in page."}
+{"level":30,"time":"2023-03-29T01:36:27.440Z","pid":11892,"hostname":"Cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:27.445Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:27.445Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar no sistema in page."}
+{"level":30,"time":"2023-03-29T01:36:27.532Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:27.539Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-03-29T01:36:27.539Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":30,"time":"2023-03-29T01:36:27.709Z","pid":11892,"hostname":"Cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-03-29T01:36:27.715Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2023-03-29T01:36:27.715Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":30,"time":"2023-03-29T01:36:27.772Z","pid":11892,"hostname":"Cristiano","msg":"Retrieved text for element css=aside strong containing Admin"}
+{"level":30,"time":"2023-03-29T01:36:27.772Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2023-03-29T01:36:27.778Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:27.779Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=a[href=\"/matriculas\"] in page."}
+{"level":30,"time":"2023-03-29T01:36:27.879Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:27.886Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=a[href=\"/matriculas/new\"] in page."}
+{"level":30,"time":"2023-03-29T01:36:27.886Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.041Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.046Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:28.046Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(text(), \"nome do aluno\")]/..//input in page."}
+{"level":30,"time":"2023-03-29T01:36:28.165Z","pid":11892,"hostname":"Cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2023-03-29T01:36:28.168Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.169Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Falcão do Santos in page."}
+{"level":30,"time":"2023-03-29T01:36:28.315Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.320Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.320Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"PLANO\"]/..//div[contains(text(), \"Selecione\")] in page."}
+{"level":30,"time":"2023-03-29T01:36:28.401Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.406Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.406Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Smart in page."}
+{"level":30,"time":"2023-03-29T01:36:28.477Z","pid":11892,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.482Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method focus"}
+{"level":30,"time":"2023-03-29T01:36:28.483Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=input[name=start_date] in page."}
+{"level":30,"time":"2023-03-29T01:36:28.516Z","pid":11892,"hostname":"Cristiano","msg":"End of node method focus"}
+{"level":30,"time":"2023-03-29T01:36:28.522Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.522Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"0\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.535Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.538Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.538Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"3\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.548Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.552Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.552Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.557Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.562Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.563Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"8\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.574Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.580Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.580Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.588Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.591Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.592Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"0\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.604Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.607Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.607Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"2\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.617Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.620Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.620Z","pid":11892,"hostname":"Cristiano","msg":"Invoking keyboard action press with params [\"3\"]"}
+{"level":30,"time":"2023-03-29T01:36:28.639Z","pid":11892,"hostname":"Cristiano","msg":"End of node method keyboardKey"}
+{"level":30,"time":"2023-03-29T01:36:28.645Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2023-03-29T01:36:28.645Z","pid":11892,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Salvar in page."}
+{"level":30,"time":"2023-03-29T01:36:38.649Z","pid":11892,"hostname":"Cristiano","msg":"Error of node method  click"}
 ================= Original suppressed error =================
 locator.click: Timeout 10000ms exceeded.
 =========================== logs ===========================
@@ -86,30 +86,30 @@ waiting for locator('button').locator('text=Salvar')
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2023-03-29T20:14:55.190Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2023-03-29T20:14:55.309Z","pid":19656,"hostname":"Cristiano","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2023-03-29T20:14:55.322Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.326Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.328Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.331Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.335Z","pid":19656,"hostname":"Cristiano","msg":"Changed active context"}
-{"level":30,"time":"2023-03-29T20:14:55.335Z","pid":19656,"hostname":"Cristiano","msg":"Changing current active page"}
-{"level":30,"time":"2023-03-29T20:14:55.336Z","pid":19656,"hostname":"Cristiano","msg":"Changed active page"}
-{"level":30,"time":"2023-03-29T20:14:55.341Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.344Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.346Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-03-29T20:14:55.346Z","pid":19656,"hostname":"Cristiano","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-03-29T20:14:55.347Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-03-29T20:14:55.347Z","pid":19656,"hostname":"Cristiano","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-03-29T20:14:55.353Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.356Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.358Z","pid":19656,"hostname":"Cristiano","msg":"Changed active context"}
-{"level":30,"time":"2023-03-29T20:14:55.358Z","pid":19656,"hostname":"Cristiano","msg":"Changing current active page"}
-{"level":30,"time":"2023-03-29T20:14:55.358Z","pid":19656,"hostname":"Cristiano","msg":"Changed active page"}
-{"level":30,"time":"2023-03-29T20:14:55.361Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method closeContext"}
-{"level":30,"time":"2023-03-29T20:14:55.371Z","pid":19656,"hostname":"Cristiano","msg":"Removed page=4cb10b56-4b45-4c6f-a652-953dbb34cf44 from context=2bf8b53c-608e-4213-a2bc-06b64f68317b page stack"}
-{"level":30,"time":"2023-03-29T20:14:55.421Z","pid":19656,"hostname":"Cristiano","msg":"End of node method closeContext"}
-{"level":30,"time":"2023-03-29T20:14:55.427Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.427Z","pid":19656,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-03-29T20:14:55.523Z","pid":19656,"hostname":"Cristiano","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2023-03-29T20:14:55.807Z","pid":19656,"hostname":"Cristiano","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2023-03-29T01:36:38.658Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-03-29T01:36:38.799Z","pid":11892,"hostname":"Cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-03-29T01:36:38.909Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.912Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.915Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.917Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.920Z","pid":11892,"hostname":"Cristiano","msg":"Changed active context"}
+{"level":30,"time":"2023-03-29T01:36:38.920Z","pid":11892,"hostname":"Cristiano","msg":"Changing current active page"}
+{"level":30,"time":"2023-03-29T01:36:38.920Z","pid":11892,"hostname":"Cristiano","msg":"Changed active page"}
+{"level":30,"time":"2023-03-29T01:36:38.926Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.931Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.933Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-03-29T01:36:38.934Z","pid":11892,"hostname":"Cristiano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-03-29T01:36:38.936Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-03-29T01:36:38.936Z","pid":11892,"hostname":"Cristiano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-03-29T01:36:38.941Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.944Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:38.945Z","pid":11892,"hostname":"Cristiano","msg":"Changed active context"}
+{"level":30,"time":"2023-03-29T01:36:38.946Z","pid":11892,"hostname":"Cristiano","msg":"Changing current active page"}
+{"level":30,"time":"2023-03-29T01:36:38.946Z","pid":11892,"hostname":"Cristiano","msg":"Changed active page"}
+{"level":30,"time":"2023-03-29T01:36:38.948Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-03-29T01:36:38.960Z","pid":11892,"hostname":"Cristiano","msg":"Removed page=d5c10c1d-d608-4a04-970d-ff4772b0d9ba from context=9efa1de1-38fb-4e36-b9f2-9d209a6d9048 page stack"}
+{"level":30,"time":"2023-03-29T01:36:39.027Z","pid":11892,"hostname":"Cristiano","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-03-29T01:36:39.081Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:39.082Z","pid":11892,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-29T01:36:39.177Z","pid":11892,"hostname":"Cristiano","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-03-29T01:36:39.697Z","pid":11892,"hostname":"Cristiano","msg":"End of node method closeAllBrowsers"}

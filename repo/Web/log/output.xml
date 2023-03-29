@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230329 17:14:40.656" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230328 22:36:21.987" rpa="false" schemaversion="3">
 <suite id="s1" name="Enrolls" source="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\web\tests\enrolls.robot">
 <test id="s1-t1" name="Deve matricular um aluno" line="9">
 <kw name="Get Fixture" library="base">
@@ -10,11 +10,11 @@
 <arg>${EXECDIR}/resources/fixtures/${fixture_file}.json</arg>
 <arg>encoding=UTF-8</arg>
 <doc>Load JSON from file.</doc>
-<msg timestamp="20230329 17:14:41.677" level="INFO">${fixture} = {'name': 'Admin', 'email': 'admin@smartbit.com', 'password': 'qacademy'}</msg>
-<status status="PASS" starttime="20230329 17:14:41.676" endtime="20230329 17:14:41.677"/>
+<msg timestamp="20230328 22:36:23.998" level="INFO">${fixture} = {'name': 'Admin', 'email': 'admin@smartbit.com', 'password': 'qacademy'}</msg>
+<status status="PASS" starttime="20230328 22:36:23.989" endtime="20230328 22:36:23.998"/>
 </kw>
-<msg timestamp="20230329 17:14:41.677" level="INFO">${admin} = {'name': 'Admin', 'email': 'admin@smartbit.com', 'password': 'qacademy'}</msg>
-<status status="PASS" starttime="20230329 17:14:41.676" endtime="20230329 17:14:41.677"/>
+<msg timestamp="20230328 22:36:23.999" level="INFO">${admin} = {'name': 'Admin', 'email': 'admin@smartbit.com', 'password': 'qacademy'}</msg>
+<status status="PASS" starttime="20230328 22:36:23.989" endtime="20230328 22:36:23.999"/>
 </kw>
 <kw name="Get Fixture" library="base">
 <var>${falcao}</var>
@@ -24,11 +24,11 @@
 <arg>${EXECDIR}/resources/fixtures/${fixture_file}.json</arg>
 <arg>encoding=UTF-8</arg>
 <doc>Load JSON from file.</doc>
-<msg timestamp="20230329 17:14:41.678" level="INFO">${fixture} = {'student': {'feet_tall': 1.78, 'weight': 80, 'age': 22, 'email': 'falcao@yahoo.com', 'name': 'Falcão do Santos'}, 'enroll': {'plan': 'Smart'}}</msg>
-<status status="PASS" starttime="20230329 17:14:41.678" endtime="20230329 17:14:41.678"/>
+<msg timestamp="20230328 22:36:24.006" level="INFO">${fixture} = {'student': {'feet_tall': 1.78, 'weight': 80, 'age': 22, 'name': 'Falcão do Santos', 'email': 'falcao@yahoo.com'}, 'enroll': {'plan': 'Smart'}}</msg>
+<status status="PASS" starttime="20230328 22:36:24.000" endtime="20230328 22:36:24.006"/>
 </kw>
-<msg timestamp="20230329 17:14:41.679" level="INFO">${falcao} = {'student': {'feet_tall': 1.78, 'weight': 80, 'age': 22, 'email': 'falcao@yahoo.com', 'name': 'Falcão do Santos'}, 'enroll': {'plan': 'Smart'}}</msg>
-<status status="PASS" starttime="20230329 17:14:41.677" endtime="20230329 17:14:41.679"/>
+<msg timestamp="20230328 22:36:24.007" level="INFO">${falcao} = {'student': {'feet_tall': 1.78, 'weight': 80, 'age': 22, 'name': 'Falcão do Santos', 'email': 'falcao@yahoo.com'}, 'enroll': {'plan': 'Smart'}}</msg>
+<status status="PASS" starttime="20230328 22:36:23.999" endtime="20230328 22:36:24.007"/>
 </kw>
 <kw name="Resert Student" library="database">
 <arg>${falcao}[student][email]</arg>
@@ -42,10 +42,10 @@
 <arg>5432</arg>
 <doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
 connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
-<msg timestamp="20230329 17:14:41.693" level="INFO">Connecting using : psycopg2.connect(database=ugwbldbd, user=ugwbldbd, password=ziFOixraKug5cy8idQLXSqHhGSM2kGjj, host=tuffi.db.elephantsql.com, port=5432) </msg>
-<status status="PASS" starttime="20230329 17:14:41.680" endtime="20230329 17:14:41.804"/>
+<msg timestamp="20230328 22:36:24.029" level="INFO">Connecting using : psycopg2.connect(database=ugwbldbd, user=ugwbldbd, password=ziFOixraKug5cy8idQLXSqHhGSM2kGjj, host=tuffi.db.elephantsql.com, port=5432) </msg>
+<status status="PASS" starttime="20230328 22:36:24.008" endtime="20230328 22:36:24.516"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.679" endtime="20230329 17:14:41.804"/>
+<status status="PASS" starttime="20230328 22:36:24.008" endtime="20230328 22:36:24.517"/>
 </kw>
 <kw name="Delete Student By Email" library="database">
 <arg>${email}</arg>
@@ -53,24 +53,24 @@ connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
 <var>${query}</var>
 <arg>DELETE FROM public.students WHERE email = '${email}';</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230329 17:14:41.806" level="INFO">${query} = DELETE FROM public.students WHERE email = 'falcao@yahoo.com';</msg>
-<status status="PASS" starttime="20230329 17:14:41.806" endtime="20230329 17:14:41.806"/>
+<msg timestamp="20230328 22:36:24.518" level="INFO">${query} = DELETE FROM public.students WHERE email = 'falcao@yahoo.com';</msg>
+<status status="PASS" starttime="20230328 22:36:24.517" endtime="20230328 22:36:24.518"/>
 </kw>
 <kw name="Execute Sql String" library="DatabaseLibrary">
 <arg>${query}</arg>
 <doc>Executes the sqlString as SQL commands. Useful to pass arguments to your sql. Set optional input `sansTran` to
 True to run command without an explicit transaction commit or rollback.</doc>
-<msg timestamp="20230329 17:14:41.806" level="INFO">Executing : Execute SQL String  |  DELETE FROM public.students WHERE email = 'falcao@yahoo.com'; </msg>
-<status status="PASS" starttime="20230329 17:14:41.806" endtime="20230329 17:14:41.841"/>
+<msg timestamp="20230328 22:36:24.518" level="INFO">Executing : Execute SQL String  |  DELETE FROM public.students WHERE email = 'falcao@yahoo.com'; </msg>
+<status status="PASS" starttime="20230328 22:36:24.518" endtime="20230328 22:36:24.603"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.804" endtime="20230329 17:14:41.841"/>
+<status status="PASS" starttime="20230328 22:36:24.517" endtime="20230328 22:36:24.603"/>
 </kw>
 <kw name="Disconnect From Database" library="DatabaseLibrary">
 <doc>Disconnects from the database.</doc>
-<msg timestamp="20230329 17:14:41.841" level="INFO">Executing : Disconnect From Database</msg>
-<status status="PASS" starttime="20230329 17:14:41.841" endtime="20230329 17:14:41.842"/>
+<msg timestamp="20230328 22:36:24.604" level="INFO">Executing : Disconnect From Database</msg>
+<status status="PASS" starttime="20230328 22:36:24.603" endtime="20230328 22:36:24.604"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.679" endtime="20230329 17:14:41.842"/>
+<status status="PASS" starttime="20230328 22:36:24.007" endtime="20230328 22:36:24.605"/>
 </kw>
 <kw name="Get Service Token" library="sessions">
 <var>${token}</var>
@@ -81,28 +81,28 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <arg>json=${user}</arg>
 <arg>expected_status=200</arg>
 <doc>Sends a POST request.</doc>
-<msg timestamp="20230329 17:14:41.959" level="INFO">POST Request : url=http://localhost:3333/sessions 
+<msg timestamp="20230328 22:36:24.718" level="INFO">POST Request : url=http://localhost:3333/sessions 
  path_url=/sessions 
  headers={'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '72', 'Content-Type': 'application/json'} 
  body=b'{"name": "Admin", "email": "admin@smartbit.com", "password": "qacademy"}' 
  </msg>
-<msg timestamp="20230329 17:14:41.959" level="INFO">POST Response : url=http://localhost:3333/sessions 
+<msg timestamp="20230328 22:36:24.718" level="INFO">POST Response : url=http://localhost:3333/sessions 
  status=200, reason=OK 
- headers={'X-DNS-Prefetch-Control': 'off', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'X-Download-Options': 'noopen', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Vary': 'Origin', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '209', 'ETag': 'W/"d1-zEwgKbru1tiG5o8/sPnY8QSKFrc"', 'Date': 'Wed, 29 Mar 2023 20:14:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
- body={"user":{"id":1,"name":"Admin","email":"admin@smartbit.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMTIwODgxLCJleHAiOjE2ODA3MjU2ODF9.6sb20K-FwRTOBtXBlurG3TrUeIzUxGDx7q3qAXmpacE"} 
+ headers={'X-DNS-Prefetch-Control': 'off', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'X-Download-Options': 'noopen', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Vary': 'Origin', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '209', 'ETag': 'W/"d1-4KbIx+9w8SJMJ025KepU+I2d+O8"', 'Date': 'Wed, 29 Mar 2023 01:36:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
+ body={"user":{"id":1,"name":"Admin","email":"admin@smartbit.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMDUzNzg0LCJleHAiOjE2ODA2NTg1ODR9.LegNDSTTt_tJ0iRAY5mij1Xj5nUj5Twh4ZuItCqKgYA"} 
  </msg>
-<msg timestamp="20230329 17:14:41.960" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20230329 17:14:41.842" endtime="20230329 17:14:41.960"/>
+<msg timestamp="20230328 22:36:24.718" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20230328 22:36:24.606" endtime="20230328 22:36:24.718"/>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <var>${token}</var>
 <arg>Bearer ${response.json()}[token]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230329 17:14:41.961" level="INFO">${token} = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMTIwODgxLCJleHAiOjE2ODA3MjU2ODF9.6sb20K-FwRTOBtXBlurG3TrUeIzUxGDx7q3qAXmpacE</msg>
-<status status="PASS" starttime="20230329 17:14:41.960" endtime="20230329 17:14:41.961"/>
+<msg timestamp="20230328 22:36:24.719" level="INFO">${token} = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMDUzNzg0LCJleHAiOjE2ODA2NTg1ODR9.LegNDSTTt_tJ0iRAY5mij1Xj5nUj5Twh4ZuItCqKgYA</msg>
+<status status="PASS" starttime="20230328 22:36:24.719" endtime="20230328 22:36:24.719"/>
 </kw>
-<msg timestamp="20230329 17:14:41.961" level="INFO">${token} = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMTIwODgxLCJleHAiOjE2ODA3MjU2ODF9.6sb20K-FwRTOBtXBlurG3TrUeIzUxGDx7q3qAXmpacE</msg>
-<status status="PASS" starttime="20230329 17:14:41.842" endtime="20230329 17:14:41.961"/>
+<msg timestamp="20230328 22:36:24.720" level="INFO">${token} = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMDUzNzg0LCJleHAiOjE2ODA2NTg1ODR9.LegNDSTTt_tJ0iRAY5mij1Xj5nUj5Twh4ZuItCqKgYA</msg>
+<status status="PASS" starttime="20230328 22:36:24.605" endtime="20230328 22:36:24.720"/>
 </kw>
 <kw name="POST New Student" library="students">
 <arg>${token}</arg>
@@ -111,8 +111,8 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <var>${headers}</var>
 <arg>Authorization=${token}</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<msg timestamp="20230329 17:14:41.962" level="INFO">${headers} = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMTIwODgxLCJleHAiOjE2ODA3MjU2ODF9.6sb20K-FwRTOBtXBlurG3TrUeIzUxGDx7q3qAXmpacE'}</msg>
-<status status="PASS" starttime="20230329 17:14:41.962" endtime="20230329 17:14:41.962"/>
+<msg timestamp="20230328 22:36:24.722" level="INFO">${headers} = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMDUzNzg0LCJleHAiOjE2ODA2NTg1ODR9.LegNDSTTt_tJ0iRAY5mij1Xj5nUj5Twh4ZuItCqKgYA'}</msg>
+<status status="PASS" starttime="20230328 22:36:24.721" endtime="20230328 22:36:24.722"/>
 </kw>
 <kw name="POST" library="RequestsLibrary">
 <var>${response}</var>
@@ -121,20 +121,20 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <arg>headers=${headers}</arg>
 <arg>expected_status=201</arg>
 <doc>Sends a POST request.</doc>
-<msg timestamp="20230329 17:14:41.996" level="INFO">POST Request : url=http://localhost:3333/students 
+<msg timestamp="20230328 22:36:24.748" level="INFO">POST Request : url=http://localhost:3333/students 
  path_url=/students 
- headers={'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMTIwODgxLCJleHAiOjE2ODA3MjU2ODF9.6sb20K-FwRTOBtXBlurG3TrUeIzUxGDx7q3qAXmpacE', 'Content-Length': '106', 'Content-Type': 'application/json'} 
- body=b'{"feet_tall": 1.78, "weight": 80, "age": 22, "email": "falcao@yahoo.com", "name": "Falc\\u00e3o do Santos"}' 
+ headers={'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjgwMDUzNzg0LCJleHAiOjE2ODA2NTg1ODR9.LegNDSTTt_tJ0iRAY5mij1Xj5nUj5Twh4ZuItCqKgYA', 'Content-Length': '106', 'Content-Type': 'application/json'} 
+ body=b'{"feet_tall": 1.78, "weight": 80, "age": 22, "name": "Falc\\u00e3o do Santos", "email": "falcao@yahoo.com"}' 
  </msg>
-<msg timestamp="20230329 17:14:41.997" level="INFO">POST Response : url=http://localhost:3333/students 
+<msg timestamp="20230328 22:36:24.748" level="INFO">POST Response : url=http://localhost:3333/students 
  status=201, reason=Created 
- headers={'X-DNS-Prefetch-Control': 'off', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'X-Download-Options': 'noopen', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Vary': 'Origin', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '202', 'ETag': 'W/"ca-noNGreRCgTvASE4cuU5IZBoef2Y"', 'Date': 'Wed, 29 Mar 2023 20:14:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
- body={"id":7,"feet_tall":"1.78","weight":"80.00","age":22,"email":"falcao@yahoo.com","name":"Falcão do Santos","updatedAt":"2023-03-29T20:14:41.970Z","createdAt":"2023-03-29T20:14:41.970Z","avatar_id":null} 
+ headers={'X-DNS-Prefetch-Control': 'off', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'X-Download-Options': 'noopen', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Vary': 'Origin', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '203', 'ETag': 'W/"cb-j9tL/9T+o0hkXaXzffX7yUaORQ4"', 'Date': 'Wed, 29 Mar 2023 01:36:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
+ body={"id":22,"feet_tall":"1.78","weight":"80.00","age":22,"name":"Falcão do Santos","email":"falcao@yahoo.com","updatedAt":"2023-03-29T01:36:24.729Z","createdAt":"2023-03-29T01:36:24.729Z","avatar_id":null} 
  </msg>
-<msg timestamp="20230329 17:14:41.997" level="INFO">${response} = &lt;Response [201]&gt;</msg>
-<status status="PASS" starttime="20230329 17:14:41.962" endtime="20230329 17:14:41.997"/>
+<msg timestamp="20230328 22:36:24.748" level="INFO">${response} = &lt;Response [201]&gt;</msg>
+<status status="PASS" starttime="20230328 22:36:24.722" endtime="20230328 22:36:24.748"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.961" endtime="20230329 17:14:41.997"/>
+<status status="PASS" starttime="20230328 22:36:24.720" endtime="20230328 22:36:24.748"/>
 </kw>
 <kw name="Do Login" library="base">
 <arg>${admin}</arg>
@@ -145,20 +145,20 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20230329 17:14:41.999" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\crist\\OneDrive\\Documentos\\Cursos\\QAcademy\\RoboCamp\\SmartBit\\repo\\web\\log\\browser\\traces\\b8730583-e724-481c-b55a-c4d0642a9ff0"}</msg>
-<msg timestamp="20230329 17:14:42.749" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\crist\\OneDrive\\Documentos\\Cursos\\QAcademy\\RoboCamp\\SmartBit\\repo\\web\\log\\browser\\traces\\b8730583-e724-481c-b55a-c4d0642a9ff0"}</msg>
-<status status="PASS" starttime="20230329 17:14:41.999" endtime="20230329 17:14:42.749"/>
+<msg timestamp="20230328 22:36:24.751" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\crist\\OneDrive\\Documentos\\Cursos\\QAcademy\\RoboCamp\\SmartBit\\repo\\web\\log\\browser\\traces\\ec22ae18-38d8-4437-bd6f-a4cc1f4c69e9"}</msg>
+<msg timestamp="20230328 22:36:25.588" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\crist\\OneDrive\\Documentos\\Cursos\\QAcademy\\RoboCamp\\SmartBit\\repo\\web\\log\\browser\\traces\\ec22ae18-38d8-4437-bd6f-a4cc1f4c69e9"}</msg>
+<status status="PASS" starttime="20230328 22:36:24.750" endtime="20230328 22:36:25.588"/>
 </kw>
 <kw name="New Page" library="Browser">
 <arg>http://localhost:3000</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20230329 17:14:44.019" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
-<msg timestamp="20230329 17:14:44.019" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20230329 17:14:42.749" endtime="20230329 17:14:44.019"/>
+<msg timestamp="20230328 22:36:27.301" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<msg timestamp="20230328 22:36:27.301" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20230328 22:36:25.589" endtime="20230328 22:36:27.301"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.998" endtime="20230329 17:14:44.019"/>
+<status status="PASS" starttime="20230328 22:36:24.750" endtime="20230328 22:36:27.301"/>
 </kw>
 <kw name="Fill Credentials" library="login">
 <arg>${user}[email]</arg>
@@ -169,8 +169,8 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230329 17:14:44.020" level="INFO">Fills the text 'admin@smartbit.com' in the given field.</msg>
-<status status="PASS" starttime="20230329 17:14:44.020" endtime="20230329 17:14:44.095"/>
+<msg timestamp="20230328 22:36:27.304" level="INFO">Fills the text 'admin@smartbit.com' in the given field.</msg>
+<status status="PASS" starttime="20230328 22:36:27.303" endtime="20230328 22:36:27.410"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>css=input[placeholder="Sua Senha"]</arg>
@@ -178,10 +178,10 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230329 17:14:44.096" level="INFO">Fills the text 'qacademy' in the given field.</msg>
-<status status="PASS" starttime="20230329 17:14:44.095" endtime="20230329 17:14:44.124"/>
+<msg timestamp="20230328 22:36:27.410" level="INFO">Fills the text 'qacademy' in the given field.</msg>
+<status status="PASS" starttime="20230328 22:36:27.410" endtime="20230328 22:36:27.442"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.019" endtime="20230329 17:14:44.126"/>
+<status status="PASS" starttime="20230328 22:36:27.302" endtime="20230328 22:36:27.442"/>
 </kw>
 <kw name="Submit Credentials" library="login">
 <kw name="Click" library="Browser">
@@ -189,9 +189,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.126" endtime="20230329 17:14:44.210"/>
+<status status="PASS" starttime="20230328 22:36:27.443" endtime="20230328 22:36:27.534"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.126" endtime="20230329 17:14:44.211"/>
+<status status="PASS" starttime="20230328 22:36:27.442" endtime="20230328 22:36:27.535"/>
 </kw>
 <kw name="User Should Be Looged In" library="navbar">
 <arg>${user}[name]</arg>
@@ -199,8 +199,8 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <var>${logged_user}</var>
 <arg>css=aside strong</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230329 17:14:44.213" level="INFO">${logged_user} = css=aside strong</msg>
-<status status="PASS" starttime="20230329 17:14:44.212" endtime="20230329 17:14:44.213"/>
+<msg timestamp="20230328 22:36:27.536" level="INFO">${logged_user} = css=aside strong</msg>
+<status status="PASS" starttime="20230328 22:36:27.536" endtime="20230328 22:36:27.536"/>
 </kw>
 <kw name="Wait For Elements State" library="Browser">
 <arg>${logged_user}</arg>
@@ -209,8 +209,8 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20230329 17:14:44.422" level="INFO">Waited for Element with selector css=aside strong at state visible</msg>
-<status status="PASS" starttime="20230329 17:14:44.213" endtime="20230329 17:14:44.422"/>
+<msg timestamp="20230328 22:36:27.711" level="INFO">Waited for Element with selector css=aside strong at state visible</msg>
+<status status="PASS" starttime="20230328 22:36:27.536" endtime="20230328 22:36:27.711"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <arg>${logged_user}</arg>
@@ -220,22 +220,22 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230329 17:14:44.476" level="INFO">Text: 'Admin'</msg>
-<status status="PASS" starttime="20230329 17:14:44.423" endtime="20230329 17:14:44.476"/>
+<msg timestamp="20230328 22:36:27.774" level="INFO">Text: 'Admin'</msg>
+<status status="PASS" starttime="20230328 22:36:27.712" endtime="20230328 22:36:27.775"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.212" endtime="20230329 17:14:44.476"/>
+<status status="PASS" starttime="20230328 22:36:27.535" endtime="20230328 22:36:27.775"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:41.998" endtime="20230329 17:14:44.476"/>
+<status status="PASS" starttime="20230328 22:36:24.749" endtime="20230328 22:36:27.775"/>
 </kw>
-<kw name="Go To Enrolls" library="enroll">
+<kw name="Go To Enroll" library="enroll">
 <kw name="Click" library="Browser">
 <arg>css=a[href="/matriculas"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.478" endtime="20230329 17:14:44.566"/>
+<status status="PASS" starttime="20230328 22:36:27.776" endtime="20230328 22:36:27.881"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.477" endtime="20230329 17:14:44.566"/>
+<status status="PASS" starttime="20230328 22:36:27.776" endtime="20230328 22:36:27.882"/>
 </kw>
 <kw name="Go To Enroll Form" library="enroll">
 <kw name="Click" library="Browser">
@@ -243,29 +243,29 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.568" endtime="20230329 17:14:44.711"/>
+<status status="PASS" starttime="20230328 22:36:27.884" endtime="20230328 22:36:28.042"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.567" endtime="20230329 17:14:44.712"/>
+<status status="PASS" starttime="20230328 22:36:27.884" endtime="20230328 22:36:28.043"/>
 </kw>
 <kw name="Select Student" library="enroll">
 <arg>${falcao}[student][name]</arg>
 <kw name="Fill Text" library="Browser">
 <arg>xpath=//div[contains(text(), "nome do aluno")]/..//input</arg>
-<arg>${student_name}</arg>
+<arg>${studant_name}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230329 17:14:44.713" level="INFO">Fills the text 'Falcão do Santos' in the given field.</msg>
-<status status="PASS" starttime="20230329 17:14:44.713" endtime="20230329 17:14:44.792"/>
+<msg timestamp="20230328 22:36:28.044" level="INFO">Fills the text 'Falcão do Santos' in the given field.</msg>
+<status status="PASS" starttime="20230328 22:36:28.044" endtime="20230328 22:36:28.167"/>
 </kw>
 <kw name="Click" library="Browser">
-<arg>css=div[class$=option] &gt;&gt; text=${student_name}</arg>
+<arg>css=div[class$=option] &gt;&gt; text=${studant_name}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.792" endtime="20230329 17:14:44.920"/>
+<status status="PASS" starttime="20230328 22:36:28.167" endtime="20230328 22:36:28.317"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.712" endtime="20230329 17:14:44.920"/>
+<status status="PASS" starttime="20230328 22:36:28.043" endtime="20230328 22:36:28.317"/>
 </kw>
 <kw name="Select Plan" library="enroll">
 <arg>${falcao}[enroll][plan]</arg>
@@ -274,16 +274,16 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.921" endtime="20230329 17:14:44.988"/>
+<status status="PASS" starttime="20230328 22:36:28.318" endtime="20230328 22:36:28.403"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>css=div[class$=option] &gt;&gt; text=${plan_name}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:44.988" endtime="20230329 17:14:45.050"/>
+<status status="PASS" starttime="20230328 22:36:28.404" endtime="20230328 22:36:28.479"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:44.921" endtime="20230329 17:14:45.050"/>
+<status status="PASS" starttime="20230328 22:36:28.318" endtime="20230328 22:36:28.480"/>
 </kw>
 <kw name="Fill Start Date" library="enroll">
 <kw name="Focus" library="Browser">
@@ -291,13 +291,13 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Moves focus on to the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230329 17:14:45.052" endtime="20230329 17:14:45.071"/>
+<status status="PASS" starttime="20230328 22:36:28.481" endtime="20230328 22:36:28.519"/>
 </kw>
 <kw name="Get Start Date" library="DateTricks">
 <var>${start_date}</var>
-<msg timestamp="20230329 17:14:45.072" level="INFO">03292023</msg>
-<msg timestamp="20230329 17:14:45.073" level="INFO">${start_date} = ['0', '3', '2', '9', '2', '0', '2', '3']</msg>
-<status status="PASS" starttime="20230329 17:14:45.072" endtime="20230329 17:14:45.073"/>
+<msg timestamp="20230328 22:36:28.519" level="INFO">03282023</msg>
+<msg timestamp="20230328 22:36:28.519" level="INFO">${start_date} = ['0', '3', '2', '8', '2', '0', '2', '3']</msg>
+<status status="PASS" starttime="20230328 22:36:28.519" endtime="20230328 22:36:28.519"/>
 </kw>
 <for flavor="IN">
 <var>${number}</var>
@@ -310,9 +310,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.074" endtime="20230329 17:14:45.084"/>
+<status status="PASS" starttime="20230328 22:36:28.520" endtime="20230328 22:36:28.537"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.073" endtime="20230329 17:14:45.084"/>
+<status status="PASS" starttime="20230328 22:36:28.520" endtime="20230328 22:36:28.537"/>
 </iter>
 <iter>
 <var name="${number}">3</var>
@@ -322,9 +322,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.084" endtime="20230329 17:14:45.093"/>
+<status status="PASS" starttime="20230328 22:36:28.537" endtime="20230328 22:36:28.550"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.084" endtime="20230329 17:14:45.094"/>
+<status status="PASS" starttime="20230328 22:36:28.537" endtime="20230328 22:36:28.550"/>
 </iter>
 <iter>
 <var name="${number}">2</var>
@@ -334,21 +334,21 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.094" endtime="20230329 17:14:45.102"/>
+<status status="PASS" starttime="20230328 22:36:28.551" endtime="20230328 22:36:28.559"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.094" endtime="20230329 17:14:45.102"/>
+<status status="PASS" starttime="20230328 22:36:28.550" endtime="20230328 22:36:28.559"/>
 </iter>
 <iter>
-<var name="${number}">9</var>
+<var name="${number}">8</var>
 <kw name="Keyboard Key" library="Browser">
 <arg>press</arg>
 <arg>${number}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.103" endtime="20230329 17:14:45.114"/>
+<status status="PASS" starttime="20230328 22:36:28.559" endtime="20230328 22:36:28.576"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.102" endtime="20230329 17:14:45.114"/>
+<status status="PASS" starttime="20230328 22:36:28.559" endtime="20230328 22:36:28.576"/>
 </iter>
 <iter>
 <var name="${number}">2</var>
@@ -358,9 +358,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.114" endtime="20230329 17:14:45.125"/>
+<status status="PASS" starttime="20230328 22:36:28.578" endtime="20230328 22:36:28.589"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.114" endtime="20230329 17:14:45.125"/>
+<status status="PASS" starttime="20230328 22:36:28.576" endtime="20230328 22:36:28.589"/>
 </iter>
 <iter>
 <var name="${number}">0</var>
@@ -370,9 +370,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.126" endtime="20230329 17:14:45.136"/>
+<status status="PASS" starttime="20230328 22:36:28.591" endtime="20230328 22:36:28.605"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.126" endtime="20230329 17:14:45.136"/>
+<status status="PASS" starttime="20230328 22:36:28.589" endtime="20230328 22:36:28.606"/>
 </iter>
 <iter>
 <var name="${number}">2</var>
@@ -382,9 +382,9 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.137" endtime="20230329 17:14:45.150"/>
+<status status="PASS" starttime="20230328 22:36:28.606" endtime="20230328 22:36:28.618"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.137" endtime="20230329 17:14:45.150"/>
+<status status="PASS" starttime="20230328 22:36:28.606" endtime="20230328 22:36:28.618"/>
 </iter>
 <iter>
 <var name="${number}">3</var>
@@ -394,13 +394,13 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Press a keyboard key on the virtual keyboard or set a key up or down.</doc>
-<status status="PASS" starttime="20230329 17:14:45.151" endtime="20230329 17:14:45.166"/>
+<status status="PASS" starttime="20230328 22:36:28.619" endtime="20230328 22:36:28.639"/>
 </kw>
-<status status="PASS" starttime="20230329 17:14:45.151" endtime="20230329 17:14:45.166"/>
+<status status="PASS" starttime="20230328 22:36:28.619" endtime="20230328 22:36:28.641"/>
 </iter>
-<status status="PASS" starttime="20230329 17:14:45.073" endtime="20230329 17:14:45.166"/>
+<status status="PASS" starttime="20230328 22:36:28.520" endtime="20230328 22:36:28.641"/>
 </for>
-<status status="PASS" starttime="20230329 17:14:45.050" endtime="20230329 17:14:45.166"/>
+<status status="PASS" starttime="20230328 22:36:28.480" endtime="20230328 22:36:28.641"/>
 </kw>
 <kw name="Submmit Enroll Form" library="enroll">
 <kw name="Click" library="Browser">
@@ -408,23 +408,28 @@ True to run command without an explicit transaction commit or rollback.</doc>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<msg timestamp="20230329 17:14:55.311" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg timestamp="20230329 17:14:55.311" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
+<msg timestamp="20230328 22:36:38.804" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230328 22:36:38.804" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
 =========================== logs ===========================
 waiting for locator('button').locator('text=Salvar')
 ============================================================
 Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</msg>
-<status status="FAIL" starttime="20230329 17:14:45.167" endtime="20230329 17:14:55.315"/>
+<status status="FAIL" starttime="20230328 22:36:28.642" endtime="20230328 22:36:38.903"/>
 </kw>
-<status status="FAIL" starttime="20230329 17:14:45.167" endtime="20230329 17:14:55.316"/>
+<status status="FAIL" starttime="20230328 22:36:28.641" endtime="20230328 22:36:38.904"/>
 </kw>
 <kw name="Verify Toaster" library="toast">
-<arg>Aluno cadastrado com sucesso</arg>
-<status status="NOT RUN" starttime="20230329 17:14:55.316" endtime="20230329 17:14:55.316"/>
+<arg>Matrícula cadastrada com sucesso</arg>
+<status status="NOT RUN" starttime="20230328 22:36:38.904" endtime="20230328 22:36:38.904"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230328 22:36:38.904" endtime="20230328 22:36:38.905"/>
 </kw>
 <doc>Logando com usuário administrado</doc>
 <tag>login</tag>
-<status status="FAIL" starttime="20230329 17:14:41.672" endtime="20230329 17:14:55.316">TimeoutError: locator.click: Timeout 10000ms exceeded.
+<status status="FAIL" starttime="20230328 22:36:23.984" endtime="20230328 22:36:38.905">TimeoutError: locator.click: Timeout 10000ms exceeded.
 =========================== logs ===========================
 waiting for locator('button').locator('text=Salvar')
 ============================================================
@@ -432,7 +437,7 @@ Tip: Use "Set Browser Timeout" for increasing the timeout or double check your l
 </test>
 <doc>Suite de teste de matriculas de alunos
 Administrador uma vez logado consegue matricular alunos na academia</doc>
-<status status="FAIL" starttime="20230329 17:14:40.658" endtime="20230329 17:14:55.424"/>
+<status status="FAIL" starttime="20230328 22:36:21.989" endtime="20230328 22:36:39.070"/>
 </suite>
 <statistics>
 <total>

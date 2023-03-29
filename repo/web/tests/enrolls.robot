@@ -21,14 +21,14 @@ Deve matricular um aluno
 
     Do Login            ${admin}
 
-    Go To Enrolls
+    Go To Enroll
     Go To Enroll Form
     Select Student          ${falcao}[student][name]
     Select Plan             ${falcao}[enroll][plan]
     Fill Start Date
     Submmit Enroll Form
-    Verify Toaster    Aluno cadastrado com sucesso
+    Verify Toaster    Matrícula cadastrada com sucesso
     
 
-  
+    Sleep    3
 
