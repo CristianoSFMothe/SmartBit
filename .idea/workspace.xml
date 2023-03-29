@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Padrão PageObject no Appium">
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/database.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/admin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/sessions.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Reaproveitando o código da automação Web para o Mobile">
+      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/enrolls.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/base.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/base.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/web/resources/database.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/resources/database.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/web/tests/enrolls.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/web/tests/enrolls.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679849260128</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=":rocket: Reaproveitando o código da automação Web para o Mobile">
+      <created>1680046074675</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680046074675</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +308,7 @@
     <MESSAGE value=":rocket: Externalizando a massa de teste" />
     <MESSAGE value=":up: Arruamando o README" />
     <MESSAGE value=":rocket: Padrão PageObject no Appium" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Padrão PageObject no Appium" />
+    <MESSAGE value=":rocket: Reaproveitando o código da automação Web para o Mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Reaproveitando o código da automação Web para o Mobile" />
   </component>
 </project>

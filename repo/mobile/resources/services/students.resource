@@ -14,4 +14,4 @@ POST New Student
     ...                       headers=${headers}
     ...                       expected_status=201
     
-   
+   [Return]                  ${response.json()}[id]
