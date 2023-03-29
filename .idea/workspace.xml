@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Reaproveitando o código da automação Web para o Mobile">
-      <change afterPath="$PROJECT_DIR$/repo/mobile/resources/services/enrolls.resource" afterDir="false" />
+    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Matriculando um novo aluno via API no Mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/services/students.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680046074675</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=":rocket: Matriculando um novo aluno via API no Mobile">
+      <created>1680049762558</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680049762558</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +314,7 @@
     <MESSAGE value=":up: Arruamando o README" />
     <MESSAGE value=":rocket: Padrão PageObject no Appium" />
     <MESSAGE value=":rocket: Reaproveitando o código da automação Web para o Mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Reaproveitando o código da automação Web para o Mobile" />
+    <MESSAGE value=":rocket: Matriculando um novo aluno via API no Mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Matriculando um novo aluno via API no Mobile" />
   </component>
 </project>
