@@ -133,3 +133,5 @@ repo/Ãlogs/report.html
 __pycache__
 
 .idea/
+
+.vscode/
