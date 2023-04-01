@@ -13,9 +13,12 @@ Deve Matricular Um Aluno
     ...         name=Admin
     ...         email=admin@smartbit.com
     ...         password=qacademy
+
+    Connect To Postgres
+    Delete Enroll By Email    falcao@gmail.com
+    Disconnect From Database
        
     Do login    ${admin}
-
 
     Go To Enrolls
     Go To Enroll Form
@@ -23,5 +26,5 @@ Deve Matricular Um Aluno
     Select Plan       Smart
     Fill Start Date
 
-
-    Sleep    5
+    Submit Enroll Form
+    Verify Toaster    Matrícula cadastrada com sucesso  
