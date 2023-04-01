@@ -1,320 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment=":rocket: Matriculando um novo aluno via API no Mobile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/resources/fixtures/help.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mobile/tests/help-order.robot" afterDir="false" />
-    </list>
+    <list default="true" id="5fc2294e-606b-438f-8c5c-1b6c4f23086e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2LYVBldopjQ3YgPKG3IRKFiveFj" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2NpEd6hmwY67mLGVIeeQEOPNM4d" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/RoboCamp/SmartBit/repo/mobile/resources/fixtures&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/crist/OneDrive/Documentos/Cursos/QAcademy/SmartBit",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\resources\fixtures" />
-      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\resources" />
-      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\tests" />
-      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\SmartBit\Web\resources\services" />
-      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\crist\OneDrive\Documentos\Cursos\QAcademy\RoboCamp\SmartBit\repo\mobile\tests" />
-      <recent name="C:\Users\crist\Documents\Cursos\QAcademy\SmartBit\Web\resources\pages" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Robot Runner.falcao">
-    <configuration name="RobotPy: coverage sim" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory">
-      <option name="command" value="sim" />
-      <option name="options" value="" />
-      <option name="profile" value="false" />
-      <option name="coverage" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RobotPy: coverage test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
-      <option name="command" value="test" />
-      <option name="options" value="" />
-      <option name="profile" value="false" />
-      <option name="coverage" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RobotPy: profiler test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
-      <option name="command" value="test" />
-      <option name="options" value="" />
-      <option name="profile" value="true" />
-      <option name="coverage" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RobotPy: test" type="ROBOTPY_RUN_CONFIGURATION" factoryName="Robotpy configuration factory" temporary="true">
-      <option name="command" value="test" />
-      <option name="options" value="" />
-      <option name="profile" value="false" />
-      <option name="coverage" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="falcao" type="robot-runner" factoryName="RobotRunConfigurationFactory" temporary="true">
-      <option name="suitePaths">
-        <list>
-          <option value="$PROJECT_DIR$/Web/resources/fixtures/falcao.json" />
-        </list>
-      </option>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Robot Runner.falcao" />
-        <item itemvalue="Robotpy.RobotPy: test" />
-        <item itemvalue="Robotpy.RobotPy: profiler test" />
-        <item itemvalue="Robotpy.RobotPy: coverage test" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08c0dfe7-3784-4e69-a02b-e4e99bbec58a" name="Changes" comment="" />
-      <created>1676047869594</created>
+      <changelist id="5fc2294e-606b-438f-8c5c-1b6c4f23086e" name="Changes" comment="" />
+      <created>1680352707367</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676047869594</updated>
-      <workItem from="1676047870738" duration="1153000" />
-      <workItem from="1676049052222" duration="6046000" />
+      <updated>1680352707367</updated>
     </task>
-    <task id="LOCAL-00001" summary=":rocket: configurações iniciais">
-      <created>1676055268666</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1676055268666</updated>
-    </task>
-    <task id="LOCAL-00002" summary=":rocket: configurações iniciais">
-      <created>1676063477476</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1676063477476</updated>
-    </task>
-    <task id="LOCAL-00003" summary=":rocket: Testando cenarios de Login valido e login invalido">
-      <created>1676068751354</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676068751354</updated>
-    </task>
-    <task id="LOCAL-00004" summary=":rocket: Refatorando a massa de teste para login">
-      <created>1676069849250</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676069849250</updated>
-    </task>
-    <task id="LOCAL-00005" summary=":rocket: Refatorando as keywords">
-      <created>1676070317819</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676070317819</updated>
-    </task>
-    <task id="LOCAL-00006" summary=":rocket: Validando formulários">
-      <created>1676147876694</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1676147876694</updated>
-    </task>
-    <task id="LOCAL-00007" summary=":rocket: Finalizando a automação do cenario de login">
-      <created>1676148720318</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1676148720318</updated>
-    </task>
-    <task id="LOCAL-00008" summary=":rocket: Estruturando o page-objects">
-      <created>1676153083092</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1676153083092</updated>
-    </task>
-    <task id="LOCAL-00009" summary=":rocket: Testando a entrar na página de matricular">
-      <created>1676289316348</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1676289316348</updated>
-    </task>
-    <task id="LOCAL-00010" summary=":rocket: Usando super variável">
-      <created>1676289574633</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1676289574633</updated>
-    </task>
-    <task id="LOCAL-00011" summary=":rocket: Usando super variável">
-      <created>1676289587692</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676289587692</updated>
-    </task>
-    <task id="LOCAL-00012" summary=":rocket: 1 parte da automatizacao de matricula">
-      <created>1677931959607</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1677931959607</updated>
-    </task>
-    <task id="LOCAL-00013" summary=":rocket: 1 parte da automatizacao de matricula data">
-      <created>1677936063634</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1677936063634</updated>
-    </task>
-    <task id="LOCAL-00014" summary=":rocket: Usando o Python para otimizar a data">
-      <created>1678536827401</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1678536827401</updated>
-    </task>
-    <task id="LOCAL-00015" summary=":rocket: Capturando os dados do estudante pelo o email e descubrindo qual é seu ID">
-      <created>1678567554153</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1678567554153</updated>
-    </task>
-    <task id="LOCAL-00016" summary=":rocket: Refatorando a capturando os dados do estudante">
-      <created>1678569301597</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1678569301597</updated>
-    </task>
-    <task id="LOCAL-00017" summary=":rocket: Externalizando a massa de teste">
-      <created>1678575073887</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1678575073887</updated>
-    </task>
-    <task id="LOCAL-00018" summary=":rocket: Externalizando a massa de teste">
-      <created>1678575731134</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1678575731134</updated>
-    </task>
-    <task id="LOCAL-00019" summary=":up: Arruamando o README">
-      <created>1678576783634</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1678576783634</updated>
-    </task>
-    <task id="LOCAL-00020" summary=":rocket: Padrão PageObject no Appium">
-      <created>1679849260128</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1679849260128</updated>
-    </task>
-    <task id="LOCAL-00021" summary=":rocket: Reaproveitando o código da automação Web para o Mobile">
-      <created>1680046074675</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1680046074675</updated>
-    </task>
-    <task id="LOCAL-00022" summary=":rocket: Matriculando um novo aluno via API no Mobile">
-      <created>1680049762558</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1680049762558</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":rocket: testando se a aplicação está online" />
-    <MESSAGE value=":rocket: Testando cenarios de Login valido e login invalido" />
-    <MESSAGE value=":rocket: Refatorando a massa de teste para login" />
-    <MESSAGE value=":rocket: Refatorando as keywords" />
-    <MESSAGE value=":rocket: Validando formulários" />
-    <MESSAGE value=":rocket: Finalizando a automação do cenario de login" />
-    <MESSAGE value=":rocket: Estruturando o page-objects" />
-    <MESSAGE value=":rocket: Testando a entrar na página de matricular" />
-    <MESSAGE value=":rocket: Usando super variável" />
-    <MESSAGE value=":rocket: 1 parte da automatizacao de matricula" />
-    <MESSAGE value=":rocket: 1 parte da automatizacao de matricula data" />
-    <MESSAGE value=":rocket: Usando o Python para otimizar a data" />
-    <MESSAGE value=":rocket: Capturando os dados do estudante pelo o email e descubrindo qual é seu ID" />
-    <MESSAGE value=":rocket: Refatorando a capturando os dados do estudante" />
-    <MESSAGE value=":rocket: Externalizando a massa de teste" />
-    <MESSAGE value=":up: Arruamando o README" />
-    <MESSAGE value=":rocket: Padrão PageObject no Appium" />
-    <MESSAGE value=":rocket: Reaproveitando o código da automação Web para o Mobile" />
-    <MESSAGE value=":rocket: Matriculando um novo aluno via API no Mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Matriculando um novo aluno via API no Mobile" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
 </project>
