@@ -32,3 +32,13 @@ Delete Enroll By Email
     
     Execute Sql String    ${query}
 
+
+# Helpers
+
+Resert Student Enroll
+    [Arguments]    ${email}
+
+    Connect To Postgres
+    Delete Enroll By Email    ${email}
+    Disconnect From Database
+

@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation       Suit de teste de matriculas de alunos
-...                 Administrador uma vez logado consegure matriculoa anos na academia
-
+...                 Administrador uma vez logado consegure matricula alunos na academia
 
 Resource        ../resources/base.resource
 
@@ -9,21 +8,18 @@ Resource        ../resources/base.resource
 *** Test Cases ***
 Deve Matricular Um Aluno
 
-    ${admin}    Create Dictionary
-    ...         name=Admin
-    ...         email=admin@smartbit.com
-    ...         password=qacademy
+    ${admin}        Get Fixture    admin
 
-    Connect To Postgres
-    Delete Enroll By Email    falcao@gmail.com
-    Disconnect From Database
+    ${student}      Get Fixture    student
+
+    Resert Student Enroll    ${student}[email]
        
     Do login    ${admin}
 
     Go To Enrolls
     Go To Enroll Form
-    Select Student    Falcão Não mexer
-    Select Plan       Smart
+    Select Student    ${student}[name]
+    Select Plan       ${student}[enroll][plan]
     Fill Start Date
 
     Submit Enroll Form
