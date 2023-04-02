@@ -8,6 +8,9 @@ Resource            pages/enroll.resource
 
 Resource            database.resource
 
+Resource            services/sessions.resource
+Resource            services/students.resource
+
 Library             JSONLibrary
 
 
