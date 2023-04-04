@@ -1,6 +1,6 @@
 {
   // Define o tema do VSCode
-"workbench.colorTheme":"Omni",
+"workbench.colorTheme":"Dracula",
 
 // Configura tamanho e família da fonte
 "editor.fontSize":16,
