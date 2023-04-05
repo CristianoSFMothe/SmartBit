@@ -1,0 +1,13 @@
+{
+  "student": {
+      "feet_tall": 1.71,
+      "weight": 80,
+      "age": 36,
+      "name": "Cristiano Mothe",
+      "email": "cristiano@gmail.com"    
+  },
+  "enroll": {
+    "plan": "Smart"
+  },
+  "question": "Como faço para ganhar massa muscular?"
+}
