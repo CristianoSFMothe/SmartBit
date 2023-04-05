@@ -366,23 +366,55 @@ Para a automatização com o **Mobile**, precisamos ter:
 
 ## Configurações do Appium
 
-* Página inicial do Appium
+<details><summary>Página inicial do Appium</summary>
   
 ![2023-03-18_16h35_26](https://user-images.githubusercontent.com/68359459/226146452-7663f29b-1845-4ecd-96e9-e7056ef319d4.png)
 
+</details>
+
 * Clicando em **Edit Configurations**, exibe as variáveis de ambiente configurada do **Java** e do **Android Studio**
+
+<details><summary>Variaveis de ambiente configurada</summary>
 
 ![2023-03-18_16h36_26](https://user-images.githubusercontent.com/68359459/226146489-95a862c3-b7a0-4910-9639-d13adbc9e7b5.png)
 
-* Configurações dos Desider Capabilities
+</details>
+
+<details><summary>Configurações dos Desider Capabilities</summary>
 
 ![2023-03-18_18h00_24](https://user-images.githubusercontent.com/68359459/226146535-28846791-a557-45e0-bf0a-970aa1a1bbc5.png)
+
+</details>
 
 ## Instalação do Appium no Robot Framework
 
 No site do <a href="https://robotframework.org/#resources" target="blank">Robot Framework</a> na parte dos **resources**, podemos pesquisar por **mobile**, teremos a **AppiumLibrary**, que irá nos direncionar para a página do <a href="https://github.com/serhatbolsu/robotframework-appiumlibrary" target="blank">GitHub</a>, não qual iremos obter o comando para a instalação 
+
 ```bash
 pip install --upgrade robotframework-appiumlibrary
 ```
 
+# Usando multibrowser
+
+A Library Browser permite executar os testes em vários browsers, de forma pratica, para isso cria-se uma váriavel de ambiente na keyword de invogação do Browser.
+
+`New Browser          headless=False      browser=${BROWSER}`
+
+E no terminal executar o comando com o argumento `-v` para criar uma variável de ambiente local, mesmo que a IDE acuse um erro, os testes irão funcionar normalmente.
+
+```bash
+robot -d ./logs/ -v BROWSER:chromium tests/enrolls.robot
+robot -d ./logs/ -v BROWSER:firefox tests/enrolls.robot
+robot -d ./logs/ -v BROWSER:webkit tests/enrolls.robot
+```
+
+## Script de Teste
+
+No VS Code, podemos criar um arquivo de script dentro da pasta dos testes web para executar os testes, como por exemplo no `Chromium`, criando um arquivo `chrome.sh`
+
+```bash
+robot -d ./logs/ -v BROWSER:chromium tests
+```
+
+E no terminal executar o comando `chmod +x chrome.sh` para dar permissões de execução do script.
 
